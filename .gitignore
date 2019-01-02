@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# data folder
+/data
+/python-client/data
+
+#h5 models
+*.h5
+*.hdf5
