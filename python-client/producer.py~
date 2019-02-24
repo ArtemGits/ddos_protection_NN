@@ -20,7 +20,7 @@ TEST_DATA = [
 KAFKA = KafkaClient('kafka:9092')
 PRODUCER = KafkaProducer(
     bootstrap_servers='kafka:9092',
-    lient_id='test-producer'
+    client_id='test-producer'
 )
 
 TOPIC = 'test-topic'

@@ -41,11 +41,12 @@ from keras.callbacks import ModelCheckpoint, Callback
 #from mpl_toolkits.mplot3d import Axes3D
 
 
+
 #num_features = 82
-num_features = 83
+num_features = 84
 num_classes = 2
-batch_size_train = 1  # 1000 1 100
-batch_size_test = 1  # 128 1 64
+batch_size_train = 1 #1000
+batch_size_test = 1  #128
 num_epochs = 1
 train_size_per = 0.70902
 
@@ -56,26 +57,22 @@ outputDir = 'output'
 """ 
 Modify model
 """
-
-
 def create_model(batch_size):
     model = Sequential()
     #model.add(Dense(units=100, input_dim=X_train.shape[1]))
-    model.add(LSTM(256, batch_input_shape=(
-        batch_size, num_features-1, 1), return_sequences=True))
-    model.add(LSTM(256, recurrent_dropout=0.5))
-    # model.add(BatchNormalization())
+    model.add(LSTM(256, batch_input_shape=(batch_size, 83, 1), return_sequences=True ))  
+    model.add(LSTM(256, recurrent_dropout=0.5))  
+    #model.add(BatchNormalization())
     #model.add(Dense(units=150, activation='relu'))
     #odel.add(Dense(units=50, activation='relu'))
     model.add(Dense(units=num_classes, activation='softmax'))
 
     # choose optimizer and loss function
-    # opt = optimizers.SGD(lr=0.001)
-    opt = optimizers.Adam(lr=0.001)
+    opt = optimizers.SGD(lr=0.001)
+    #opt = optimizers.Adam(lr=0.001)
 
     # compile the model
-    model.compile(loss='categorical_crossentropy',
-                  optimizer=opt, metrics=['accuracy'])
+    model.compile(loss='categorical_crossentropy', optimizer=opt, metrics=['accuracy'])
     #model.compile(loss='mean_squared_error', optimizer=sgd)
 
     return model
@@ -84,47 +81,41 @@ def create_model(batch_size):
 """
 Step 1 : Load data
 """
-
-
 def read_data_from_csv(csv_file):
     dataframe = pandas.read_csv(csv_file)
-    dataframe.set_value(dataframe[' Label'] == 'BENIGN', [' Label'], 0)
-    dataframe.set_value(dataframe[' Label'] == 'DDoS', [' Label'], 1)
-    # plot_model(dataframe)
+    dataframe.set_value(dataframe[' Label']=='BENIGN',[' Label'],0)
+    dataframe.set_value(dataframe[' Label']=='DDoS',[' Label'],1)
+    #plot_model(dataframe)
     dataset = dataframe.sample(frac=1).values
     #sns_plot = sns.boxplot(data=dataframe)
     #fig = sns_plot.get_figure()
     #fig.set_size_inches(200, 30)
-    # fig.savefig("output.png")
-
+    #fig.savefig("output.png")
+    
     np.save("data/{}.npy".format(os.path.basename(csv_file)), dataset)
-
+    
     return dataset
-
 
 def read_data_from_np(npy_file):
     dataset = np.load(npy_file)
     return dataset
 
-
 """
 Step 2: Preprocess dataset
 """
-
-
 def preprocess(dataset):
     print("\nDataset shape: {}".format(dataset.shape))
 
     X = dataset[:, :num_features]
     Y = dataset[:, num_features]
 
-    flow_id = np.array(dataset[:, 0]).reshape(-1, 1)
-    source_ip = np.array(dataset[:, 1]).reshape(-1, 1)
-    destination_ip = np.array(dataset[:, 3]).reshape(-1, 1)
-    timestamp = np.array(dataset[:, 6]).reshape(-1, 1)
+
+    flow_id = np.array(dataset[:,0]).reshape(-1, 1)
+    source_ip = np.array(dataset[:,1]).reshape(-1, 1)
+    destination_ip = np.array(dataset[:,3]).reshape(-1, 1)
+    timestamp = np.array(dataset[:,6]).reshape(-1, 1)
     # X_ft3 = np.array(dataset[:,2]).reshape(-1, 1)
-    X_str = np.concatenate(
-        (flow_id, source_ip, destination_ip, timestamp), axis=1)
+    X_str = np.concatenate((flow_id, source_ip, destination_ip,timestamp), axis=1)
     print(X_str)
     # Vectorize a text corpus, by turning each text into either a sequence of integers
     tokenizer = Tokenizer(filters='\t\n', char_level=True, lower=False)
@@ -140,12 +131,15 @@ def preprocess(dataset):
     X_str = tokenizer.texts_to_sequences(X_str)
 
     X_processed = np.concatenate(
-        (np.array(dataset[:, 2]).reshape(-1, 1).astype('float32'),
-         X_str,
-         (dataset[:, 4:5]).astype('float32'),
-         (dataset[:, 7:num_features]).astype('float32')
-         ), axis=1)
-
+        ( np.array(dataset[:, 2]).reshape(-1, 1).astype('float32'), 
+          X_str,
+          (dataset[:, 4:5]).astype('float32'),
+          (dataset[:, 7:num_features]).astype('float32')
+        ), axis=1)
+    
+    
+    
+    
     print("Features shape: {}".format(X_processed.shape))
 
     Y = to_categorical(Y, num_classes=num_classes)
@@ -161,24 +155,21 @@ def preprocess(dataset):
     return X_train, Y_train, X_test, Y_test
 
 
+
 """
 Step 2: Train classifier
 """
-
-
 def train(X_train, Y_train):
-    X_train = np.reshape(X_train, (X_train.shape[0], X_train.shape[1], 1))
+    X_train = np.reshape(X_train, (X_train.shape[0],X_train.shape[1], 1))
 
     model = create_model(batch_size_train)
     print(model.summary())
-    print(X_train.shape)
+    
     # Checkpoint
     filepath = outputDir+"/weights-{epoch:02d}-{val_acc:.2f}.hdf5"
-    checkpoint = ModelCheckpoint(
-        filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
+    checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
     # Train the model
-    model_history = model.fit(X_train, Y_train, validation_split=0.25,
-                              epochs=num_epochs, batch_size=batch_size_train, callbacks=[checkpoint])
+    model_history = model.fit(X_train, Y_train, validation_split=0.25, epochs=num_epochs, batch_size=batch_size_train, callbacks=[checkpoint])
     #model_history = model.fit(X_train, Y_train, epochs=num_epochs, callbacks=[plot_losses], batch_size=batch_size_train)
 
     # Save model
@@ -193,11 +184,10 @@ def train(X_train, Y_train):
 """
 Step 3: Evaluate model
 """
-
-
 def evaluate(X_test, Y_test, weight_file):
     model = create_model(batch_size_test)
-    X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
+
+    X_test = np.reshape(X_test, (X_test.shape[0],X_test.shape[1], 1))
     # Evaluate
     score, acc = model.evaluate(X_test, Y_test, batch_size=batch_size_test)
     print("\nLoss: {}".format(score))
@@ -260,14 +250,14 @@ def evaluate(X_test, Y_test, weight_file):
 #     X_str = tokenizer.texts_to_sequences(X_str)
 
 #     X_processed = np.concatenate(
-#         ( np.array(dataset[:, 1]).reshape(-1, 1).astype('float32'),
+#         ( np.array(dataset[:, 1]).reshape(-1, 1).astype('float32'), 
 #           X_str,
 #           (dataset[:, 3:18]).astype('float32'),
 #           (dataset[:, 18:20]).astype('float32'),
 #           (dataset[:, 20:num_features]).astype('float32')
 #         ), axis=1)
-
-
+    
+    
 #     columns = [ 'Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets','Total Length of Fwd Packets', 'Fwd Packet Length Mean', 'Fwd Packet Length Std','Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Bwd Packet Length Std', 'Flow Bytes per s', 'Flow Packets per s', 'Flow IAT Mean', 'Flow IAT Std', 'Flow IAT Max', 'Flow IAT Min','Fwd IAT Total', 'Fwd IAT Mean', 'Fwd IAT Std', 'Fwd IAT Max', 'Fwd IAT Min','Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Bwd IAT Min', 'Fwd Packets/s', 'Bwd Packets/s', 'Packet Length Mean', 'Packet Length Std', 'Active Mean', 'Active Std', 'Active Max', 'Active Min']
 #     #print(Y.tolist())
 #     #print(X_processed.shape)
@@ -281,22 +271,23 @@ def evaluate(X_test, Y_test, weight_file):
 #         .plot(kind='barh'))
 #     plt.savefig('features_importance')
 
+    
+
 
 if __name__ == '__main__':
     parser = optparse.OptionParser()
-    parser.add_option('-f', '--file', action="store",
-                      dest="file", help="data file")
+    parser.add_option('-f', '--file', action="store", dest="file", help="data file")
     options, args = parser.parse_args()
 
     if options.file is not None:
         csv_file = options.file
     else:
         csv_file = 'data/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv'
-
+    
     #dataset = read_data_from_np('{}.npy'.format(csv_file))
     dataset = read_data_from_csv(csv_file)
     #'''features analyze'''
-    # feature_analyzer(dataset)
+    #feature_analyzer(dataset)
 
     X_train, Y_train, X_test, Y_test = preprocess(dataset)
     #print("\nTrain samples: {}".format(X_test[0]))
@@ -304,16 +295,16 @@ if __name__ == '__main__':
     #model = load_model(outputDir+'/lstm_model.h5')
     #opt = optimizers.SGD(lr=0.001)
     #model.compile(loss='categorical_crossentropy', optimizer=opt, metrics=['accuracy'])
-    # print(X_test.shape[0])
-    # print(X_test.shape[1])
+    #print(X_test.shape[0])
+    #print(X_test.shape[1])
     #X_test = np.reshape(X_test, (X_test.shape[0],X_test.shape[1], 1))
     #X_test = np.reshape(X_test[0],(1,35, 1))
-    # print(X_test)
-    # np.set_printoptions(suppress=True)
+    #print(X_test)
+    #np.set_printoptions(suppress=True)
     #classes =  model.predict(X_test, verbose=0)
-    # print(classes)
+    #print(classes)
     #print("Test samples: {}".format(len(X_test)))
 
     model_history, model, weight_file = train(X_train, Y_train)
     evaluate(X_test, Y_test, weight_file)
-    # plot_model(model_history)
+    #plot_model(model_history)

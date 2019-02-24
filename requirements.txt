@@ -7,3 +7,4 @@ scikit-learn
 pillow
 h5py
 pandas
+kafka-python
