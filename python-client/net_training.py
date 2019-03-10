@@ -36,7 +36,7 @@ from keras.layers.normalization import BatchNormalization
 from keras.utils import to_categorical
 from keras.callbacks import ModelCheckpoint, Callback
 
-#import matplotlib.pyplot as plt
+#import matlotlib.pyplot as plt
 #import seaborn as sns; sns.set(style="ticks", color_codes=True)
 #from mpl_toolkits.mplot3d import Axes3D
 
@@ -44,9 +44,9 @@ from keras.callbacks import ModelCheckpoint, Callback
 #num_features = 82
 num_features = 83
 num_classes = 2
-batch_size_train = 1  # 1000 1 100
-batch_size_test = 1  # 128 1 64
-num_epochs = 1
+batch_size_train = 1000  # 1000 1 100
+batch_size_test = 128  # 128 1 64
+num_epochs = 20
 train_size_per = 0.70902
 
 
@@ -60,13 +60,13 @@ Modify model
 
 def create_model(batch_size):
     model = Sequential()
-    #model.add(Dense(units=100, input_dim=X_train.shape[1]))
-    model.add(LSTM(256, batch_input_shape=(
-        batch_size, num_features-1, 1), return_sequences=True))
-    model.add(LSTM(256, recurrent_dropout=0.5))
+    # model.add(Dense(units=100, input_dim=X_train.shape[1]))
+    model.add(LSTM(128, batch_input_shape=(
+        None, num_features-1, 1), return_sequences=True))
+    model.add(LSTM(64, recurrent_dropout=0.5))
     # model.add(BatchNormalization())
     #model.add(Dense(units=150, activation='relu'))
-    #odel.add(Dense(units=50, activation='relu'))
+    #model.add(Dense(units=50, activation='relu'))
     model.add(Dense(units=num_classes, activation='softmax'))
 
     # choose optimizer and loss function
@@ -76,8 +76,10 @@ def create_model(batch_size):
     # compile the model
     model.compile(loss='categorical_crossentropy',
                   optimizer=opt, metrics=['accuracy'])
-    #model.compile(loss='mean_squared_error', optimizer=sgd)
-
+    # model.compile(loss='mean_squared_error', optimizer=sgd)
+    # model.compile(loss='categorical_crossentropy',
+    #              optimizer='rmsprop',
+    #              metrics=['accuracy'])
     return model
 
 
@@ -117,7 +119,7 @@ def preprocess(dataset):
 
     X = dataset[:, :num_features]
     Y = dataset[:, num_features]
-
+    print(Y)
     flow_id = np.array(dataset[:, 0]).reshape(-1, 1)
     source_ip = np.array(dataset[:, 1]).reshape(-1, 1)
     destination_ip = np.array(dataset[:, 3]).reshape(-1, 1)
@@ -125,7 +127,7 @@ def preprocess(dataset):
     # X_ft3 = np.array(dataset[:,2]).reshape(-1, 1)
     X_str = np.concatenate(
         (flow_id, source_ip, destination_ip, timestamp), axis=1)
-    print(X_str)
+    # print(X_str)
     # Vectorize a text corpus, by turning each text into either a sequence of integers
     tokenizer = Tokenizer(filters='\t\n', char_level=True, lower=False)
     tokenizer.fit_on_texts(X_str)
@@ -149,6 +151,7 @@ def preprocess(dataset):
     print("Features shape: {}".format(X_processed.shape))
 
     Y = to_categorical(Y, num_classes=num_classes)
+    print(Y)
 
     # Divide to train dataset
     train_size = int(len(dataset) * train_size_per)
@@ -179,7 +182,7 @@ def train(X_train, Y_train):
     # Train the model
     model_history = model.fit(X_train, Y_train, validation_split=0.25,
                               epochs=num_epochs, batch_size=batch_size_train, callbacks=[checkpoint])
-    #model_history = model.fit(X_train, Y_train, epochs=num_epochs, callbacks=[plot_losses], batch_size=batch_size_train)
+    # model_history = model.fit(X_train, Y_train, epochs=num_epochs, callbacks=[plot_losses], batch_size=batch_size_train)
 
     # Save model
     weight_file = '{}/lstm_weights.h5'.format(outputDir)

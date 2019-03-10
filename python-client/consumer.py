@@ -52,7 +52,7 @@ def make_prediction(model, dataset):
     # df = pd.DataFrame.from_records(data, columns=labels)
 
     # dataset = df.values
-    print(dataset)
+    # print(dataset)
     print("---------------")
 
     flow_id = np.array(dataset[:, 0]).reshape(-1, 1)
@@ -75,11 +75,11 @@ def make_prediction(model, dataset):
 
     X_data = np.reshape(
         X_processed, (X_processed.shape[0], X_processed.shape[1], 1))
-    print(len(X_data[0]))
-    print(X_data.shape)
+    # print(len(X_data[0]))
+    # print(X_data.shape)
     classes = model.predict(X_data, batch_size=1, verbose=0)
 
-    print(classes)
+    print(np.floor(classes))
 
 
 def kafka_setup():
