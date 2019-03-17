@@ -35,6 +35,7 @@ from keras.models import load_model
 from keras.layers.normalization import BatchNormalization
 from keras.utils import to_categorical
 from keras.callbacks import ModelCheckpoint, Callback
+from sklearn import preprocessing
 
 #import matlotlib.pyplot as plt
 #import seaborn as sns; sns.set(style="ticks", color_codes=True)
@@ -44,9 +45,9 @@ from keras.callbacks import ModelCheckpoint, Callback
 #num_features = 82
 num_features = 83
 num_classes = 2
-batch_size_train = 1000  # 1000 1 100
+batch_size_train = 100  # 1000 1 100
 batch_size_test = 128  # 128 1 64
-num_epochs = 20
+num_epochs = 5
 train_size_per = 0.70902
 
 
@@ -54,32 +55,37 @@ outputDir = 'output'
 
 
 """ 
-Modify model
+Modfy model
 """
 
 
 def create_model(batch_size):
     model = Sequential()
     # model.add(Dense(units=100, input_dim=X_train.shape[1]))
-    model.add(LSTM(128, batch_input_shape=(
+    model.add(LSTM(32, batch_input_shape=(
         None, num_features-1, 1), return_sequences=True))
-    model.add(LSTM(64, recurrent_dropout=0.5))
+    model.add(LSTM(32, recurrent_dropout=0.1, return_sequences=True))
+    model.add(LSTM(32, recurrent_dropout=0.1, return_sequences=True))
+    model.add(LSTM(64, recurrent_dropout=0.1, return_sequences=True))
+    model.add(LSTM(64, recurrent_dropout=0.1, return_sequences=True))
+    model.add(LSTM(64, recurrent_dropout=0.1))
+    # model.add(LSTM(, recurrent_dropout=0.1))
     # model.add(BatchNormalization())
     #model.add(Dense(units=150, activation='relu'))
-    #model.add(Dense(units=50, activation='relu'))
+    # model.add(Dense(units=50, activation='relu')
     model.add(Dense(units=num_classes, activation='softmax'))
 
     # choose optimizer and loss function
     # opt = optimizers.SGD(lr=0.001)
-    opt = optimizers.Adam(lr=0.001)
+    # opt = optimizers.Adam(lr=0.001)
 
     # compile the model
-    model.compile(loss='categorical_crossentropy',
-                  optimizer=opt, metrics=['accuracy'])
-    # model.compile(loss='mean_squared_error', optimizer=sgd)
     # model.compile(loss='categorical_crossentropy',
-    #              optimizer='rmsprop',
-    #              metrics=['accuracy'])
+    #              optimizer=opt, metrics=['accuracy'])
+    # model.compile(loss='mean_squared_error', optimizer=sgd)
+    model.compile(loss='categorical_crossentropy',
+                  optimizer='rmsprop',
+                  metrics=['accuracy'])
     return model
 
 
@@ -90,10 +96,39 @@ Step 1 : Load data
 
 def read_data_from_csv(csv_file):
     dataframe = pandas.read_csv(csv_file)
+    dataframe.replace([np.inf, -np.inf], np.nan).dropna(axis=1)
     dataframe.set_value(dataframe[' Label'] == 'BENIGN', [' Label'], 0)
     dataframe.set_value(dataframe[' Label'] == 'DDoS', [' Label'], 1)
     # plot_model(dataframe)
-    dataset = dataframe.sample(frac=1).values
+    dataframe = dataframe.drop(
+        dataframe[(dataframe[' Flow Packets/s'] == 'Infinity') |
+                  (dataframe[' Flow Packets/s'] == 'NaN')].index)
+    dataframe = dataframe.drop(
+        dataframe[(dataframe['Flow Bytes/s'] == 'Infinity') |
+                  (dataframe['Flow Bytes/s'] == 'NaN')].index)
+    dataframe = dataframe.replace([np.inf, -np.inf], np.nan)
+    dataframe = dataframe.dropna()
+
+    min_max_scaler = preprocessing.MinMaxScaler()
+    column_names_to_not_normalize = [
+        'Flow ID',  ' Source IP', ' Destination IP', ' Timestamp']
+    column_names_to_normalize = [x for x in list(
+        dataframe) if x not in column_names_to_not_normalize]
+    x = dataframe[column_names_to_normalize]
+    x = x.apply(pandas.to_numeric, errors='coerce')
+    print(x.info())
+    x = x.values
+    print("****************************************************")
+    print(x)
+
+    x_scaled = min_max_scaler.fit_transform(x)
+    df_temp = pandas.DataFrame(
+        x_scaled, columns=column_names_to_normalize, index=dataframe.index)
+    dataframe[column_names_to_normalize] = df_temp
+
+    dataset = dataframe.values
+    print(dataframe.info())
+    print(dataset)
     #sns_plot = sns.boxplot(data=dataframe)
     #fig = sns_plot.get_figure()
     #fig.set_size_inches(200, 30)
@@ -119,7 +154,6 @@ def preprocess(dataset):
 
     X = dataset[:, :num_features]
     Y = dataset[:, num_features]
-    print(Y)
     flow_id = np.array(dataset[:, 0]).reshape(-1, 1)
     source_ip = np.array(dataset[:, 1]).reshape(-1, 1)
     destination_ip = np.array(dataset[:, 3]).reshape(-1, 1)
@@ -159,6 +193,8 @@ def preprocess(dataset):
     Y_train = Y[0:train_size]
     # and test dataset
     X_test = X_processed[train_size:len(X_processed)]
+    print("----------------------------------------------------")
+    print(X_train)
     Y_test = Y[train_size:len(Y)]
 
     return X_train, Y_train, X_test, Y_test
