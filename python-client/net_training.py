@@ -36,6 +36,7 @@ from keras.layers.normalization import BatchNormalization
 from keras.utils import to_categorical
 from keras.callbacks import ModelCheckpoint, Callback
 from sklearn import preprocessing
+from sklearn.utils import class_weight
 
 #import matlotlib.pyplot as plt
 #import seaborn as sns; sns.set(style="ticks", color_codes=True)
@@ -44,11 +45,11 @@ from sklearn import preprocessing
 
 #num_features = 82
 num_features = 83
-num_classes = 2
-batch_size_train = 100  # 1000 1 100
-batch_size_test = 128  # 128 1 64
-num_epochs = 5
-train_size_per = 0.70902
+#num_classes = 2
+batch_size_train = 1000  # 1000 1 100
+batch_size_test = 1000  # 128 1 64
+num_epochs = 1
+train_size_per = 0.7
 
 
 outputDir = 'output'
@@ -62,30 +63,36 @@ Modfy model
 def create_model(batch_size):
     model = Sequential()
     # model.add(Dense(units=100, input_dim=X_train.shape[1]))
-    model.add(LSTM(32, batch_input_shape=(
-        None, num_features-1, 1), return_sequences=True))
-    model.add(LSTM(32, recurrent_dropout=0.1, return_sequences=True))
-    model.add(LSTM(32, recurrent_dropout=0.1, return_sequences=True))
-    model.add(LSTM(64, recurrent_dropout=0.1, return_sequences=True))
-    model.add(LSTM(64, recurrent_dropout=0.1, return_sequences=True))
-    model.add(LSTM(64, recurrent_dropout=0.1))
+    model.add(LSTM(82, input_shape=(num_features-1, 1), return_sequences=True))
+    # model.add(Dropout(0.5))
+    model.add(LSTM(82))
+    #model.add(LSTM(64, dropout=0.7, recurrent_dropout=0.5))
+    #model.add(LSTM(32, recurrent_dropout=0.15, return_sequences=True))
+    #model.add(LSTM(16, recurrent_dropout=0.2, return_sequences=True))
+    #model.add(LSTM(4, recurrent_dropout=0.3))
+    #model.add(LSTM(32, recurrent_dropout=0.1, return_sequences=True))
+    #model.add(LSTM(8, recurrent_dropout=0.1))
+    #model.add(LSTM(64, recurrent_dropout=0.1, return_sequences=True))
+    #model.add(LSTM(64, recurrent_dropout=0.1, return_sequences=True))
+    #model.add(LSTM(64, recurrent_dropout=0.1))
     # model.add(LSTM(, recurrent_dropout=0.1))
     # model.add(BatchNormalization())
     #model.add(Dense(units=150, activation='relu'))
     # model.add(Dense(units=50, activation='relu')
-    model.add(Dense(units=num_classes, activation='softmax'))
+    model.add(Dense(units=1, activation='sigmoid'))
 
     # choose optimizer and loss function
-    # opt = optimizers.SGD(lr=0.001)
-    # opt = optimizers.Adam(lr=0.001)
+    #opt = optimizers.SGD(lr=0.001)
+    opt = optimizers.Adam(lr=0.001)
+    #opt = optimizers.RMSprop(lr=0.001, rho=0.9, epsilon=None, decay=0.0)
 
     # compile the model
-    # model.compile(loss='categorical_crossentropy',
-    #              optimizer=opt, metrics=['accuracy'])
+    model.compile(loss='binary_crossentropy',
+                  optimizer=opt, metrics=['accuracy'])
     # model.compile(loss='mean_squared_error', optimizer=sgd)
-    model.compile(loss='categorical_crossentropy',
-                  optimizer='rmsprop',
-                  metrics=['accuracy'])
+    # model.compile(loss='categorical_crossentropy',
+    #              optimizer='rmsprop',
+    #              metrics=['accuracy'])
     return model
 
 
@@ -109,25 +116,25 @@ def read_data_from_csv(csv_file):
     dataframe = dataframe.replace([np.inf, -np.inf], np.nan)
     dataframe = dataframe.dropna()
 
-    min_max_scaler = preprocessing.MinMaxScaler()
-    column_names_to_not_normalize = [
-        'Flow ID',  ' Source IP', ' Destination IP', ' Timestamp']
-    column_names_to_normalize = [x for x in list(
-        dataframe) if x not in column_names_to_not_normalize]
-    x = dataframe[column_names_to_normalize]
-    x = x.apply(pandas.to_numeric, errors='coerce')
-    print(x.info())
-    x = x.values
-    print("****************************************************")
-    print(x)
+    #min_max_scaler = preprocessing.MinMaxScaler()
+    # column_names_to_not_normalize = [
+    #    'Flow ID',  ' Source IP', ' Destination IP', ' Timestamp']
+    # column_names_to_normalize = [x for x in list(
+    #    dataframe) if x not in column_names_to_not_normalize]
+    #x = dataframe[column_names_to_normalize]
+    #x = x.apply(pandas.to_numeric, errors='coerce')
+    # print(x.info())
+    #x = x.values
+    # print("****************************************************")
+    # print(x)
 
-    x_scaled = min_max_scaler.fit_transform(x)
-    df_temp = pandas.DataFrame(
-        x_scaled, columns=column_names_to_normalize, index=dataframe.index)
-    dataframe[column_names_to_normalize] = df_temp
+    #x_scaled = min_max_scaler.fit_transform(x)
+    # df_temp = pandas.DataFrame(
+    #    x_scaled, columns=column_names_to_normalize, index=dataframe.index)
+    #dataframe[column_names_to_normalize] = df_temp
 
     dataset = dataframe.values
-    print(dataframe.info())
+    # print(dataframe.info())
     print(dataset)
     #sns_plot = sns.boxplot(data=dataframe)
     #fig = sns_plot.get_figure()
@@ -184,7 +191,7 @@ def preprocess(dataset):
 
     print("Features shape: {}".format(X_processed.shape))
 
-    Y = to_categorical(Y, num_classes=num_classes)
+    #Y = to_categorical(Y, num_classes=num_classes)
     print(Y)
 
     # Divide to train dataset
@@ -215,8 +222,12 @@ def train(X_train, Y_train):
     filepath = outputDir+"/weights-{epoch:02d}-{val_acc:.2f}.hdf5"
     checkpoint = ModelCheckpoint(
         filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
+
+    class_weights = class_weight.compute_class_weight('balanced',
+                                                      np.unique(Y_train),
+                                                      Y_train)
     # Train the model
-    model_history = model.fit(X_train, Y_train, validation_split=0.25,
+    model_history = model.fit(X_train, Y_train, class_weight=class_weights, validation_split=0.33,
                               epochs=num_epochs, batch_size=batch_size_train, callbacks=[checkpoint])
     # model_history = model.fit(X_train, Y_train, epochs=num_epochs, callbacks=[plot_losses], batch_size=batch_size_train)
 
@@ -234,8 +245,8 @@ Step 3: Evaluate model
 """
 
 
-def evaluate(X_test, Y_test, weight_file):
-    model = create_model(batch_size_test)
+def evaluate(X_test, Y_test):
+    model = load_model(outputDir+'/lstm_model.h5')
     X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
     # Evaluate
     score, acc = model.evaluate(X_test, Y_test, batch_size=batch_size_test)
@@ -354,5 +365,5 @@ if __name__ == '__main__':
     #print("Test samples: {}".format(len(X_test)))
 
     model_history, model, weight_file = train(X_train, Y_train)
-    evaluate(X_test, Y_test, weight_file)
+    evaluate(X_test, Y_test)
     # plot_model(model_history)

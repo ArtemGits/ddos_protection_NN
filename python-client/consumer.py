@@ -16,7 +16,7 @@ from keras.layers import LSTM, Dense, Dropout
 def model_load():
     outputDir = 'output'
     num_features = 83
-    num_classes = 2
+    #num_classes = 2
 
     model = load_model(outputDir+'/lstm_model.h5')
 
@@ -24,20 +24,19 @@ def model_load():
 
     # re-define model
     new_model = Sequential()
-    new_model.add(LSTM(32, batch_input_shape=(
-        None, num_features-1, 1), return_sequences=True))
-    new_model.add(LSTM(32, recurrent_dropout=0.1, return_sequences=True))
-    new_model.add(LSTM(32, recurrent_dropout=0.1, return_sequences=True))
-    new_model.add(LSTM(64, recurrent_dropout=0.1, return_sequences=True))
-    new_model.add(LSTM(64, recurrent_dropout=0.1, return_sequences=True))
-    new_model.add(LSTM(64, recurrent_dropout=0.1))
-    new_model.add(Dense(units=num_classes, activation='softmax'))
+
+    new_model.add(LSTM(82, input_shape=(
+        num_features-1, 1), return_sequences=True))
+    new_model.add(LSTM(82))
+    new_model.add(Dense(units=1, activation='sigmoid'))
+
+    opt = optimizers.Adam(lr=0.001)
 
     new_model.set_weights(old_weights)
-    new_model.compile(loss='categorical_crossentropy',
-                      optimizer='rmsprop',
-                      metrics=['accuracy'])
 
+    new_model.compile(loss='binary_crossentropy',
+                      optimizer=opt,
+                      metrics=['accuracy'])
     return new_model
 
 
@@ -99,7 +98,7 @@ def make_prediction(model, dataset):
         X_processed, (X_processed.shape[0], X_processed.shape[1], 1))
     # print(len(X_data[0]))
     # print(X_data.shape)
-    classes = model.predict_classes(X_data, batch_size=1)
+    classes = model.predict(X_data, batch_size=1)
 
     print(classes)
 
