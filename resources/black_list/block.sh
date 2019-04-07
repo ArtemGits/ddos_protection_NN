@@ -7,8 +7,8 @@ inotifywait -m "$monitoring_dir" -e create -e moved_to | # what is it?
         if [[ "$file" =~ $filename ]]; then
             echo "add ip addres from black list to iptables rule" 
 	    while read ip; do
-            # iptables -D INPUT -s $ip -j DROP
-            iptables -A INPUT -s $ip -j DROP
+            #iptables -D INPUT -s $ip -j DROP
+            iptables -I INPUT -s $ip -j DROP #-A
         done < $1/$filename
         rm $1/$filename
         invoke-rc.d iptables-persistent save

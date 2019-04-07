@@ -1,22 +1,24 @@
-""" Read test data from Kafka to ensure producer and broker are working """
-
+"""Consume data from kafka to make prediction"""
 
 from kafka import KafkaConsumer
 from keras.models import load_model
 from keras import optimizers
 from keras.preprocessing.text import Tokenizer
 import numpy as np
-import pandas as pd
 import pickle
-
+import os
 from keras.models import Sequential
-from keras.layers import LSTM, Dense, Dropout
+from keras.layers import LSTM, Dense
+
+
+cur_path = os.path.dirname(__file__)
+outputDir = os.path.relpath('../resources/model_resources', cur_path)
+blackList = os.path.relpath(
+    '../resources/black_list/black_list.txt', cur_path)
 
 
 def model_load():
-    outputDir = 'output'
     num_features = 83
-    #num_classes = 2
 
     model = load_model(outputDir+'/lstm_model.h5')
 
@@ -63,25 +65,15 @@ def make_prediction(model, dataset):
 
     X_data = np.reshape(
         X_processed, (X_processed.shape[0], X_processed.shape[1], 1))
-    # print(len(X_data[0]))
-    # print(X_data.shape)
     classes = model.predict(X_data, batch_size=1)
-    # print(dataset)
-    # print(classes)
-    # print(classes.shape)
-    #print(dataset[..., 83].shape)
     classes = classes.reshape(-1)
-    # print(classes)
-    # print(classes.shape)
     dataset[..., 83] = classes
 
-    # print(dataset)
     black_list = list(set([x[0] for x in dataset[:, [1, 83]] if x[1] >= .5]))
     print(black_list)
-    with open('black_list/black_list.txt', 'w') as f:
+    with open(blackList, 'w') as f:
         for ip in black_list:
             f.write("%s\n" % ip)
-
 
 
 def kafka_setup():
@@ -91,25 +83,12 @@ def kafka_setup():
                              bootstrap_servers=['kafka:9092'])
     model = model_load()
     for message in consumer:
-        # print("%s:%d:%d: key=%s value=%s" % (
-        # message.topic, message.partition,
-        # message.offset, message.key,
-        # message.value))
-        tmp = pickle.loads(message.value)
-        # tmp = tmp.reshape(-1, 84)
-    # message value and key are raw bytes -- decode if necessary!
-    # e.g., for unicode: `message.value.decode('utf-8')`
-        # print(tmp)
-        make_prediction(model, tmp)
+        make_prediction(model, pickle.loads(message.value))
 
-# consume earliest available messages, don't commit offsets
+    # consume earliest available messages, don't commit offsets
     KafkaConsumer(auto_offset_reset='earliest', enable_auto_commit=False)
 
-# consume json messages
-# KafkaConsumer(value_deserializer=lambda m: json.loads(m.decode('ascii')))
-
-
-# StopIteration if no message after 1sec
+    # StopIteration if no message after 1sec
     KafkaConsumer(consumer_timeout_ms=1000)
 
 
