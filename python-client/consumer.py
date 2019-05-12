@@ -69,7 +69,7 @@ def make_prediction(model, dataset):
     classes = classes.reshape(-1)
     dataset[..., 83] = classes
 
-    black_list = list(set([x[0] for x in dataset[:, [1, 83]] if x[1] >= .5]))
+    black_list = list(set([x[0] for x in dataset[:, [1, 83]] if x[1] >= .9]))
     print(black_list)
     with open(blackList, 'w') as f:
         for ip in black_list:

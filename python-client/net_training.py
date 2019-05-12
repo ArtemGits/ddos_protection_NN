@@ -17,7 +17,7 @@ from sklearn.utils import class_weight
 num_features = 83
 batch_size_train = 1000  # 1000 1 100
 batch_size_test = 1000  # 128 1 64
-num_epochs = 1
+num_epochs = 5
 train_size_per = 0.7
 
 cur_path = os.path.dirname(__file__)
@@ -55,8 +55,9 @@ Step 1 : Load data
 def read_data_from_csv(csv_file):
     dataframe = pandas.read_csv(csv_file)
     dataframe.replace([np.inf, -np.inf], np.nan).dropna(axis=1)
+    dataframe.set_value(dataframe[' Label'] != 'BENIGN', [' Label'], 1)
     dataframe.set_value(dataframe[' Label'] == 'BENIGN', [' Label'], 0)
-    dataframe.set_value(dataframe[' Label'] == 'DDoS', [' Label'], 1)
+    
     dataframe = dataframe.drop(
         dataframe[(dataframe[' Flow Packets/s'] == 'Infinity') |
                   (dataframe[' Flow Packets/s'] == 'NaN')].index)
@@ -67,7 +68,7 @@ def read_data_from_csv(csv_file):
     dataframe = dataframe.dropna()
 
     dataset = dataframe.values
-    # print(dataset)
+    print(dataframe)
 
     # np.save("data/{}.npy".format(os.path.basename(csv_file)), dataset)
 
@@ -103,15 +104,14 @@ def preprocess(dataset):
     integers """
     tokenizer = Tokenizer(filters='\t\n', char_level=True, lower=False)
     tokenizer.fit_on_texts(X_str)
-    # print(os.path.dirname(word_dict_file))
+    print(os.path.dirname(word_dict_file))
     # Extract and save word dictionary
     if not os.path.exists(os.path.dirname(word_dict_file)):
         os.makedirs(os.path.dirname(word_dict_file))
-        with open(word_dict_file, 'w') as outfile:
-            json.dump(tokenizer.word_index, outfile, ensure_ascii=False)
-            # Transform all text to a sequence of integers
-            X_str = tokenizer.texts_to_sequences(X_str)
-            print("hello")
+    with open(word_dict_file, 'w') as outfile:
+        json.dump(tokenizer.word_index, outfile, ensure_ascii=False)
+        # Transform all text to a sequence of integers
+        X_str = tokenizer.texts_to_sequences(X_str)
 
     X_processed = np.concatenate(
         (np.array(dataset[:, 2]).reshape(-1, 1).astype('float32'),
@@ -199,8 +199,10 @@ if __name__ == '__main__':
     if options.file is not None:
         csv_file = options.file
     else:
+        #csv_file = datasetDir + \
+#            '/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv'
         csv_file = datasetDir + \
-            '/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv'
+            '/Wednesday-workingHours.pcap_ISCX_out.csv'
 
 dataset = read_data_from_csv(csv_file)
 

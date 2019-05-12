@@ -34,7 +34,7 @@ trap 'cleanup' INT TERM EXIT
 
 #output_file=${output_dir}/$(date +'%Y-%m-%d-%H:%M:%S.pcap')
 output_file_format=${output_dir}/'%Y-%m-%d-%H:%M:%S.pcap'
-options="-n -nn -N -s 0"
+options="-n -nn  -N -s 0 -Q in" # -nn ?
 
 [[ ! -z "${user}" ]] && options="${options} -Z ${user}"  #$(id -nu 1000)
 
