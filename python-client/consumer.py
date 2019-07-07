@@ -3,7 +3,7 @@
 import configparser
 import os
 import pickle
-
+from keras.models import load_model
 import numpy as np
 from kafka import KafkaConsumer
 
@@ -33,10 +33,18 @@ class Consumer(object):
                                                    'BATCH_SIZE_TRAIN')
 
     def model_load(self):
-        new_model = LSTM_Model(self.actual_features, self.actual_features, 1,
-                               self.activation_function, self.loss_function,
-                               self.metrics,
-                               self.batch_size_train).create_model()
+
+        old_weights = load_model(self.outputDir +
+                                 '/lstm_model.h5').get_weights()
+
+        lstm_model = LSTM_Model(self.actual_features, self.actual_features, 1,
+                                self.activation_function, self.loss_function,
+                                self.metrics, self.batch_size_train)
+
+        new_model = lstm_model.create_model()
+
+        new_model.set_weights(old_weights)
+        lstm_model.compile_model(new_model)
 
         return new_model
 
@@ -57,7 +65,9 @@ class Consumer(object):
         classes = classes.reshape(-1)
         dataset[..., self.number_features] = classes
 
-        # TODO function to write in black_list
+        self.check_and_add_to_blacklist(dataset)
+
+    def check_and_add_to_blacklist(self, dataset):
         self.black_list = list(
             set([
                 x[0] for x in dataset[:, [1, self.number_features]]

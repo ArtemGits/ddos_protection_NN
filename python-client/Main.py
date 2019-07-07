@@ -32,9 +32,12 @@ class Main(object):
         csv_file = self.datasetDir + \
             '/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv'
 
-        model = LSTM_Model(self.actual_features, self.num_features, 1,
-                           self.activation_function, self.loss_function,
-                           self.metrics, self.batch_size_train).create_model()
+        lstm_model = LSTM_Model(self.actual_features, self.num_features, 1,
+                                self.activation_function, self.loss_function,
+                                self.metrics, self.batch_size_train)
+
+        model = lstm_model.create_model()
+        lstm_model.compile_model(model)
 
         tp = TrainingProcess(csv_file, self.num_features, self.train_size_per,
                              self.batch_size_train, self.batch_size_test,

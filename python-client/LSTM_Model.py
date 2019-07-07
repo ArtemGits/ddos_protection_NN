@@ -26,6 +26,8 @@ class LSTM_Model(object):
         self.loss = loss
         self.metrics = metrics
         self.batch_size = batch_size
+        # choose optimizer and loss function
+        self.opt = optimizers.Adam(lr=0.001)
 
     def create_model(self):
         """create_model"""
@@ -38,9 +40,10 @@ class LSTM_Model(object):
         model.add(LSTM(self.lstm_units))
         model.add(Dense(units=self.dense_units, activation=self.activation))
 
-        # choose optimizer and loss function
-        opt = optimizers.Adam(lr=0.001)
-
-        # compile the model
-        model.compile(loss=self.loss, optimizer=opt, metrics=[self.metrics])
         return model
+
+    def compile_model(self, model):
+        # compile the model
+        model.compile(loss=self.loss,
+                      optimizer=self.opt,
+                      metrics=[self.metrics])
