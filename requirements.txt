@@ -8,3 +8,5 @@ pillow
 h5py
 pandas
 kafka-python
+matplotlib
+seaborn

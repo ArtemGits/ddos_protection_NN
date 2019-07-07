@@ -1,95 +1,89 @@
 """Consume data from kafka to make prediction"""
 
-from kafka import KafkaConsumer
-from keras.models import load_model
-from keras import optimizers
-from keras.preprocessing.text import Tokenizer
-import numpy as np
-import pickle
+import configparser
 import os
-from keras.models import Sequential
-from keras.layers import LSTM, Dense
+import pickle
+
+import numpy as np
+from kafka import KafkaConsumer
+
+from LSTM_Model import LSTM_Model
 
 
-cur_path = os.path.dirname(__file__)
-outputDir = os.path.relpath('../resources/model_resources', cur_path)
-blackList = os.path.relpath(
-    '../resources/black_list/black_list.txt', cur_path)
+class Consumer(object):
+    def __init__(self):
+        self.cur_path = os.path.dirname(__file__)
+        self.outputDir = os.path.relpath('../resources/model_resources',
+                                         self.cur_path)
+        self.blackList = os.path.relpath(
+            '../resources/black_list/black_list.txt', self.cur_path)
+
+        self.config = configparser.ConfigParser()
+        self.config.read('config.ini')
+
+        self.actual_features = self.config.getint('DEFAULT', 'ACTUAL_FEATURES')
+        self.activation_function = self.config['DEFAULT'][
+            'ACTIVATION_FUNCTION']
+
+        self.number_features = self.config.getint('DEFAULT', 'NUM_FEATURES')
+
+        self.loss_function = self.config['DEFAULT']['LOSS_FUNCTION']
+        self.metrics = self.config['DEFAULT']['METRICS']
+        self.batch_size_train = self.config.getint('DEFAULT',
+                                                   'BATCH_SIZE_TRAIN')
+
+    def model_load(self):
+        new_model = LSTM_Model(self.actual_features, self.actual_features, 1,
+                               self.activation_function, self.loss_function,
+                               self.metrics,
+                               self.batch_size_train).create_model()
+
+        return new_model
+
+    def make_prediction(self, model, dataframe):
+        print("---------------")
+
+        dataframe['Label'] = np.where(dataframe['Label'] == 'No Label', -1,
+                                      dataframe['Label'])
+
+        dataset = dataframe.sample(frac=1).values
+
+        X_processed = np.delete(dataset, [0, 1, 3, 6], 1).astype('float32')
+
+        X_data = np.reshape(X_processed,
+                            (X_processed.shape[0], X_processed.shape[1], 1))
+
+        classes = model.predict(X_data, batch_size=1)
+        classes = classes.reshape(-1)
+        dataset[..., self.number_features] = classes
+
+        # TODO function to write in black_list
+        self.black_list = list(
+            set([
+                x[0] for x in dataset[:, [1, self.number_features]]
+                if x[1] >= .5
+            ]))
+        print(self.black_list)
+        with open(self.blackList, 'w') as f:
+            for ip in self.black_list:
+                f.write("%s\n" % ip)
+
+    def kafka_setup(self):
+        # To consume latest messages and auto-commit offsets
+        consumer = KafkaConsumer('test-topic',
+                                 group_id='test-consumer',
+                                 bootstrap_servers=['kafka:9092'])
+        model = self.model_load()
+        for message in consumer:
+            self.make_prediction(model, pickle.loads(message.value))
+
+        # consume earliest available messages, don't commit offsets
+        KafkaConsumer(auto_offset_reset='earliest', enable_auto_commit=False)
+
+        # StopIteration if no message after 1sec
+        KafkaConsumer(consumer_timeout_ms=1000)
 
 
-def model_load():
-    num_features = 83
-
-    model = load_model(outputDir+'/lstm_model.h5')
-
-    old_weights = model.get_weights()
-
-    # re-define model
-    new_model = Sequential()
-
-    new_model.add(LSTM(82, input_shape=(
-        num_features-1, 1), return_sequences=True))
-    new_model.add(LSTM(82))
-    new_model.add(Dense(units=1, activation='sigmoid'))
-
-    opt = optimizers.Adam(lr=0.001)
-
-    new_model.set_weights(old_weights)
-
-    new_model.compile(loss='binary_crossentropy',
-                      optimizer=opt,
-                      metrics=['accuracy'])
-    return new_model
-
-
-def make_prediction(model, dataset):
-    print("---------------")
-
-    flow_id = np.array(dataset[:, 0]).reshape(-1, 1)
-    source_ip = np.array(dataset[:, 1]).reshape(-1, 1)
-    destination_ip = np.array(dataset[:, 3]).reshape(-1, 1)
-    timestamp = np.array(dataset[:, 6]).reshape(-1, 1)
-    X_str = np.concatenate(
-        (flow_id, source_ip, destination_ip, timestamp), axis=1)
-
-    tk = Tokenizer(filters='\t\n', char_level=True, lower=False)
-    tk.fit_on_texts(X_str)
-    X_str = tk.texts_to_sequences(X_str)
-
-    X_processed = np.concatenate(
-        (np.array(dataset[:, 2]).reshape(-1, 1).astype('float32'),
-         X_str,
-         (dataset[:, 4:5]).astype('float32'),
-         (dataset[:, 7:83]).astype('float32')
-         ), axis=1)
-
-    X_data = np.reshape(
-        X_processed, (X_processed.shape[0], X_processed.shape[1], 1))
-    classes = model.predict(X_data, batch_size=1)
-    classes = classes.reshape(-1)
-    dataset[..., 83] = classes
-
-    black_list = list(set([x[0] for x in dataset[:, [1, 83]] if x[1] >= .9]))
-    print(black_list)
-    with open(blackList, 'w') as f:
-        for ip in black_list:
-            f.write("%s\n" % ip)
-
-
-def kafka_setup():
-    # To consume latest messages and auto-commit offsets
-    consumer = KafkaConsumer('test-topic',
-                             group_id='test-consumer',
-                             bootstrap_servers=['kafka:9092'])
-    model = model_load()
-    for message in consumer:
-        make_prediction(model, pickle.loads(message.value))
-
-    # consume earliest available messages, don't commit offsets
-    KafkaConsumer(auto_offset_reset='earliest', enable_auto_commit=False)
-
-    # StopIteration if no message after 1sec
-    KafkaConsumer(consumer_timeout_ms=1000)
-
-
-kafka_setup()
+if __name__ == '__main__':
+    consumer = Consumer()
+    consumer.kafka_setup()

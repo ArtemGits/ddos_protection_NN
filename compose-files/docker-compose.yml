@@ -10,27 +10,11 @@ services:
       - "9092:9092"
     environment:
       KAFKA_ADVERTISED_HOST_NAME: kafka
-      KAFKA_CREATE_TOPICS: "test-topic:1:1"
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_CREATE_TOPICS: "test-topic:1:1"
       KAFKA_MESSAGE_MAX_BYTES: 30000000
       KAFKA_MAX_MESSAGE_BYTES: 30000000
       KAFKA_REPLICA_FETCH_MAX_BYTES: 30000000
       KAFKA_MAX_REQUEST_SIZE: 30000000
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-  zeppelin:
-    image: apache/zeppelin:0.7.2
-    ports:
-      - "8080:8080"
-    links:
-      - kafka:kafka
-    depends_on:
-      - kafka
-    environment:
-      ZEPPELIN_LOG_DIR: /logs
-      ZEPPELIN_NOTEBOOK_DIR: /notebook
-    volumes:
-      - /tmp/logs:/logs
-      - ../data/kafka-poc/zeppelin/notebook:/notebook
-      - ../data/kafka-poc/zeppelin/conf:/zeppelin/conf
-      - ../data/kafka-poc/kafka-data:/data/kafka-poc/kafka-data

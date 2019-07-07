@@ -34,3 +34,8 @@ sudo apt install default-jdk
 
 iptables instal
 sudo apt-get install iptables-persistent
+
+consumer and produced and server kafka settings
+
+
+./capture_interface_pcap.sh wlp3s0 pcap agits

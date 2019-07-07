@@ -101,9 +101,7 @@ ENV/
 .mypy_cache/
 
 # big files
-tcpdump_and_cicflowmeter/CICFlowMeters/
-tcpdump_and_cicflowmeter/csv/
-tcpdump_and_cicflowmeter/logs/
-data/
-loic/
-
+tcpdump_and_cicflowmeter/*.csv
+data/dataset/Wednesday-workingHours.pcap_ISCX.csv
+data/dataset/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+data/dataset/Wednesday-workingHours.pcap_ISCX_out.csv
