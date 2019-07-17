@@ -36,7 +36,7 @@ class DataLoader(object):
 
 if __name__ == '__main__':
     producer = DataLoader()
-    #path = 'csv/' + sys.argv[1]
-    path = '/home/agits/Documents/code/python/ddos_protection_NN/data/dataset/test.csv'
+    path = 'csv/' + sys.argv[1]
+    #path = '../data/dataset/test.csv'
     x_file = open(path)
     producer.read_data_from_csv(x_file)

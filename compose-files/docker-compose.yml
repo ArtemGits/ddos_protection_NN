@@ -18,3 +18,4 @@ services:
       KAFKA_MAX_REQUEST_SIZE: 30000000
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+      - ./consumer.properties:/opt/kafka/config/consumer.properties
