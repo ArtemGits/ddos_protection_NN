@@ -10,6 +10,7 @@ from kafka import KafkaClient, KafkaProducer
 
 
 class DataLoader(object):
+    
     def __init__(self):
         """
         Setup PRODUCER
@@ -23,16 +24,18 @@ class DataLoader(object):
 
     def read_data_from_csv(self, csv_file):
         dataframe = pandas.read_csv(csv_file)
-
+        dataset = dataframe.sample(frac=1).values
+        #    print(dataset)
+        #    print(dataset.dtype)
+        #    print(dataset.shape)
         try:
-            byte_array = pickle.dumps(dataframe)
+            byte_array = pickle.dumps(dataset)
             self.PRODUCER.send(self.TOPIC, value=byte_array)
         except Exception:
             print(Exception)
         print('pushed:')
 
         sleep(random.uniform(0.01, 5))
-
 
 if __name__ == '__main__':
     producer = DataLoader()
