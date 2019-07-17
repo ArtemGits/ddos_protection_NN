@@ -102,6 +102,7 @@ ENV/
 
 # big files
 tcpdump_and_cicflowmeter/csv/*.csv
+!tcpdump_and_cicflowmeter/CICFlowMeters/*/lib
 data/dataset/Wednesday-workingHours.pcap_ISCX.csv
 data/dataset/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
 data/dataset/Wednesday-workingHours.pcap_ISCX_out.csv

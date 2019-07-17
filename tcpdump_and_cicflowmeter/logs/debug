@@ -1,1141 +1,910 @@
-2019-07-07 15:15:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 15:15:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 15:15:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 15:15:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-15:14:40.pcap 
-2019-07-07 15:15:41 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-15:14:40.pcap
-2019-07-07 15:15:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 15:15:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 9
-2019-07-07 15:15:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 9
-2019-07-07 15:15:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 15:15:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 46 seconds
-2019-07-07 15:15:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 15:15:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 15:15:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 15:15:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,3
-2019-07-07 15:15:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 3
-2019-07-07 15:15:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 15:19:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 15:19:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 15:19:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 15:19:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-15:18:37.pcap 
-2019-07-07 15:19:44 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
-2019-07-07 15:19:44 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
-2019-07-07 15:19:44 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-15:18:37.pcap
-2019-07-07 15:19:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 15:19:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 18
-2019-07-07 15:19:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 18
-2019-07-07 15:19:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 15:19:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 30 seconds
-2019-07-07 15:19:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 15:19:44 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 15:19:44 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
-2019-07-07 15:19:44 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,7
-2019-07-07 15:19:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 7
-2019-07-07 15:19:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 15:19:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 15:19:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 15:19:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 15:19:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-15:19:43.pcap 
-2019-07-07 15:19:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-15:19:43.pcap
-2019-07-07 15:19:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 15:19:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 3
-2019-07-07 15:19:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 3
-2019-07-07 15:19:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 15:19:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 5 seconds
-2019-07-07 15:19:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 15:19:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 15:19:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 15:19:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,1
-2019-07-07 15:19:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 1
-2019-07-07 15:19:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 16:14:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:14:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 16:14:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:14:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-16:13:55.pcap 
-2019-07-07 16:14:59 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-16:13:55.pcap
-2019-07-07 16:14:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 16:14:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 17
-2019-07-07 16:14:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 17
-2019-07-07 16:14:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 16:14:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 56 seconds
-2019-07-07 16:14:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 16:14:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 16:14:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 16:14:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,3
-2019-07-07 16:14:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 3
-2019-07-07 16:14:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 16:16:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:16:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 16:16:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:16:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-16:14:58.pcap 
-2019-07-07 16:16:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 3 flow
-2019-07-07 16:16:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
-2019-07-07 16:16:16 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-16:14:58.pcap
-2019-07-07 16:16:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 16:16:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 26
-2019-07-07 16:16:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 26
-2019-07-07 16:16:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 16:16:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 45 seconds
-2019-07-07 16:16:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 16:16:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 16:16:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
-2019-07-07 16:16:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,6
-2019-07-07 16:16:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 6
-2019-07-07 16:16:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 16:16:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:16:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 16:16:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:16:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-16:16:15.pcap 
-2019-07-07 16:16:44 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-16:16:15.pcap
-2019-07-07 16:16:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 16:16:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2
-2019-07-07 16:16:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2
-2019-07-07 16:16:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 16:16:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 13 seconds
-2019-07-07 16:16:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 16:16:44 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 16:16:44 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 16:16:44 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,1
-2019-07-07 16:16:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 1
-2019-07-07 16:16:44 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 16:18:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:18:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 16:18:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:18:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-16:17:28.pcap 
-2019-07-07 16:18:30 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-16:17:28.pcap
-2019-07-07 16:18:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 16:18:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 4
-2019-07-07 16:18:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 4
-2019-07-07 16:18:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 16:18:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 18 seconds
-2019-07-07 16:18:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 16:18:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 16:18:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 16:18:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,1
-2019-07-07 16:18:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 1
-2019-07-07 16:18:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 16:19:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:19:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 16:19:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:19:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-16:18:30.pcap 
-2019-07-07 16:19:58 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
-2019-07-07 16:19:58 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-16:18:30.pcap
-2019-07-07 16:19:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 16:19:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 7
-2019-07-07 16:19:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 7
-2019-07-07 16:19:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 16:19:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
-2019-07-07 16:19:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 16:19:58 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 16:19:58 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,1
-2019-07-07 16:19:58 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,2
-2019-07-07 16:19:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 2
-2019-07-07 16:19:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 16:21:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:21:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 16:21:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:21:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-16:19:58.pcap 
-2019-07-07 16:21:19 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-16:19:58.pcap
-2019-07-07 16:21:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 16:21:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 9
-2019-07-07 16:21:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 9
-2019-07-07 16:21:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 16:21:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
-2019-07-07 16:21:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 16:21:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 16:21:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 16:21:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,2
-2019-07-07 16:21:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 2
-2019-07-07 16:21:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 16:22:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:22:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 16:22:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:22:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-16:21:19.pcap 
-2019-07-07 16:22:25 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-16:21:19.pcap
-2019-07-07 16:22:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 16:22:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 5
-2019-07-07 16:22:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 5
-2019-07-07 16:22:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 16:22:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
-2019-07-07 16:22:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 16:22:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 16:22:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 16:22:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,1
-2019-07-07 16:22:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 1
-2019-07-07 16:22:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 16:23:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:23:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 16:23:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:23:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-16:22:25.pcap 
-2019-07-07 16:23:29 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-16:22:25.pcap
-2019-07-07 16:23:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 16:23:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 3
-2019-07-07 16:23:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 3
-2019-07-07 16:23:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 16:23:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 29 seconds
-2019-07-07 16:23:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 16:23:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 16:23:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 16:23:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,1
-2019-07-07 16:23:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 1
-2019-07-07 16:23:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 16:24:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:24:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 16:24:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:24:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-16:23:29.pcap 
-2019-07-07 16:24:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-16:23:29.pcap
-2019-07-07 16:24:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 16:24:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 3
-2019-07-07 16:24:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 3
-2019-07-07 16:24:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 16:24:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 35 seconds
-2019-07-07 16:24:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 16:24:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 16:24:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 16:24:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,1
-2019-07-07 16:24:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 1
-2019-07-07 16:24:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 16:25:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:25:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 16:25:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 16:25:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-16:24:38.pcap 
-2019-07-07 16:25:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-16:24:38.pcap
-2019-07-07 16:25:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 16:25:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 3
-2019-07-07 16:25:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 3
-2019-07-07 16:25:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 16:25:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 35 seconds
-2019-07-07 16:25:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 16:25:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 16:25:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 16:25:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,1
-2019-07-07 16:25:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 1
-2019-07-07 16:25:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 17:16:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:16:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 17:16:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:16:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-17:14:58.pcap 
-2019-07-07 17:16:04 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-17:14:58.pcap
-2019-07-07 17:16:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 17:16:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 664
-2019-07-07 17:16:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 664
-2019-07-07 17:16:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 17:16:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 54 seconds
-2019-07-07 17:16:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 17:16:04 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 17:16:04 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 17:16:04 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,8
-2019-07-07 17:16:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 8
-2019-07-07 17:16:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 17:17:06 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:17:06 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 17:17:06 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:17:06 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-17:16:04.pcap 
-2019-07-07 17:17:06 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-17:16:04.pcap
-2019-07-07 17:17:06 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 17:17:06 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 444
-2019-07-07 17:17:06 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 444
-2019-07-07 17:17:06 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 17:17:06 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 60 seconds
-2019-07-07 17:17:06 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 17:17:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 17:17:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 17:17:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,8
-2019-07-07 17:17:06 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 8
-2019-07-07 17:17:06 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 17:18:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:18:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 17:18:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:18:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-17:17:05.pcap 
-2019-07-07 17:18:05 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-17:17:05.pcap
-2019-07-07 17:18:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 17:18:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 25
-2019-07-07 17:18:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 25
-2019-07-07 17:18:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 17:18:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
-2019-07-07 17:18:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 17:18:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 17:18:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 17:18:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 2,4
-2019-07-07 17:18:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 4
-2019-07-07 17:18:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 17:19:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:19:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 17:19:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:19:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-17:18:05.pcap 
-2019-07-07 17:19:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
-2019-07-07 17:19:16 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-17:18:05.pcap
-2019-07-07 17:19:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 17:19:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 24
-2019-07-07 17:19:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 24
-2019-07-07 17:19:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 17:19:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 56 seconds
-2019-07-07 17:19:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 17:19:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 17:19:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,1
-2019-07-07 17:19:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,5
-2019-07-07 17:19:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:35:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:35:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:35:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:35:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:34:40.pcap 
+2019-05-11 14:35:45 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:34:40.pcap
+2019-05-11 14:35:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:35:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2056
+2019-05-11 14:35:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2056
+2019-05-11 14:35:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:35:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 56 seconds
+2019-05-11 14:35:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:35:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:35:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 14:35:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 10,5
+2019-05-11 14:35:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
 
 ----------------------------------------------------------------------------
  TOTAL FLOWS GENERATED: 5
-2019-07-07 17:19:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:35:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
 
-2019-07-07 17:20:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:20:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 17:20:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:20:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-17:19:16.pcap 
-2019-07-07 17:20:16 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-17:19:16.pcap
-2019-07-07 17:20:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 17:20:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 7
-2019-07-07 17:20:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 7
-2019-07-07 17:20:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 17:20:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 52 seconds
-2019-07-07 17:20:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 17:20:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 17:20:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 17:20:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,2
-2019-07-07 17:20:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 2
-2019-07-07 17:20:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 17:21:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:21:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 17:21:17 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:21:17 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-17:20:16.pcap 
-2019-07-07 17:21:17 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-17:20:16.pcap
-2019-07-07 17:21:17 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 17:21:17 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 10
-2019-07-07 17:21:17 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 10
-2019-07-07 17:21:17 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 17:21:17 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 52 seconds
-2019-07-07 17:21:17 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 17:21:17 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 17:21:17 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 17:21:17 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,2
-2019-07-07 17:21:17 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:36:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:36:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:36:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:36:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:35:44.pcap 
+2019-05-11 14:36:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:35:44.pcap
+2019-05-11 14:36:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:36:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 4057
+2019-05-11 14:36:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 4057
+2019-05-11 14:36:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:36:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
+2019-05-11 14:36:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:36:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:36:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 14:36:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 3,5
+2019-05-11 14:36:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
 
 ----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 2
-2019-07-07 17:21:17 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 5
+2019-05-11 14:36:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
 
-2019-07-07 17:22:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:22:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 17:22:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:22:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-17:21:16.pcap 
-2019-07-07 17:22:22 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
-2019-07-07 17:22:22 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-17:21:16.pcap
-2019-07-07 17:22:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 17:22:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 8
-2019-07-07 17:22:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 8
-2019-07-07 17:22:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 17:22:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 57 seconds
-2019-07-07 17:22:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 17:22:22 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 17:22:22 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,1
-2019-07-07 17:22:22 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,2
-2019-07-07 17:22:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 2
-2019-07-07 17:22:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 17:23:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:23:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 17:23:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:23:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-17:22:22.pcap 
-2019-07-07 17:23:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-17:22:22.pcap
-2019-07-07 17:23:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 17:23:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 4
-2019-07-07 17:23:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 4
-2019-07-07 17:23:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 17:23:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 40 seconds
-2019-07-07 17:23:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 17:23:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 17:23:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 17:23:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,1
-2019-07-07 17:23:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 1
-2019-07-07 17:23:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 17:24:49 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:24:49 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 17:24:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:24:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-17:23:36.pcap 
-2019-07-07 17:24:50 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-17:23:36.pcap
-2019-07-07 17:24:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 17:24:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 4
-2019-07-07 17:24:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 4
-2019-07-07 17:24:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 17:24:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 40 seconds
-2019-07-07 17:24:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 17:24:50 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 17:24:50 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 17:24:50 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,1
-2019-07-07 17:24:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 1
-2019-07-07 17:24:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 17:25:35 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:25:35 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 17:25:35 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:25:35 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-17:24:49.pcap 
-2019-07-07 17:25:35 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-17:24:49.pcap
-2019-07-07 17:25:35 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 17:25:35 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 4
-2019-07-07 17:25:35 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 4
-2019-07-07 17:25:35 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 17:25:35 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 40 seconds
-2019-07-07 17:25:35 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 17:25:35 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 17:25:35 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 17:25:35 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,1
-2019-07-07 17:25:35 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 1
-2019-07-07 17:25:35 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 17:27:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:27:19 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 17:27:20 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:27:20 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-17:26:17.pcap 
-2019-07-07 17:27:20 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-17:26:17.pcap
-2019-07-07 17:27:20 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 17:27:20 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 52
-2019-07-07 17:27:20 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 52
-2019-07-07 17:27:20 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 17:27:20 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 54 seconds
-2019-07-07 17:27:20 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 17:27:20 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 17:27:20 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 17:27:20 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 12,14
-2019-07-07 17:27:20 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 14
-2019-07-07 17:27:20 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 17:28:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:28:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 17:28:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 17:28:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-17:27:19.pcap 
-2019-07-07 17:28:09 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-17:27:19.pcap
-2019-07-07 17:28:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 17:28:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 53
-2019-07-07 17:28:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 53
-2019-07-07 17:28:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 17:28:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 44 seconds
-2019-07-07 17:28:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 17:28:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 17:28:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 17:28:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,8
-2019-07-07 17:28:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 8
-2019-07-07 17:28:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 19:37:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 19:37:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 19:37:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 19:37:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-19:36:04.pcap 
-2019-07-07 19:37:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 20 flow
-2019-07-07 19:37:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 19 flow
-2019-07-07 19:37:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 20 flow
-2019-07-07 19:37:05 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-19:36:04.pcap
-2019-07-07 19:37:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 19:37:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 901
-2019-07-07 19:37:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 901
-2019-07-07 19:37:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 19:37:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 57 seconds
-2019-07-07 19:37:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 19:37:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 19:37:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,3
-2019-07-07 19:37:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 2,21
-2019-07-07 19:37:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 21
-2019-07-07 19:37:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 19:38:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 19:38:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 19:38:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 19:38:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-19:37:05.pcap 
-2019-07-07 19:38:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 50 flow
-2019-07-07 19:38:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 50 flow
-2019-07-07 19:38:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 50 flow
-2019-07-07 19:38:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 58 flow
-2019-07-07 19:38:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 58 flow
-2019-07-07 19:38:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 58 flow
-2019-07-07 19:38:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 57 flow
-2019-07-07 19:38:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 57 flow
-2019-07-07 19:38:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 56 flow
-2019-07-07 19:38:07 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-19:37:05.pcap
-2019-07-07 19:38:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 19:38:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 1054
-2019-07-07 19:38:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 1054
-2019-07-07 19:38:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 19:38:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 57 seconds
-2019-07-07 19:38:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 19:38:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 19:38:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,9
-2019-07-07 19:38:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 14,52
-2019-07-07 19:38:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 52
-2019-07-07 19:38:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 19:39:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 19:39:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 19:39:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 19:39:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-19:38:07.pcap 
-2019-07-07 19:39:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 52 flow
-2019-07-07 19:39:09 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-19:38:07.pcap
-2019-07-07 19:39:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 19:39:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 694
-2019-07-07 19:39:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 694
-2019-07-07 19:39:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 19:39:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 55 seconds
-2019-07-07 19:39:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 19:39:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 19:39:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,1
-2019-07-07 19:39:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 6,53
-2019-07-07 19:39:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 53
-2019-07-07 19:39:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 19:40:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 19:40:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 19:40:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 19:40:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-19:39:08.pcap 
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 44 flow
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 46 flow
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 46 flow
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 46 flow
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 46 flow
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 55 flow
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 58 flow
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 63 flow
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 63 flow
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 62 flow
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-19:39:08.pcap
-2019-07-07 19:40:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 19:40:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 369
-2019-07-07 19:40:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 369
-2019-07-07 19:40:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 19:40:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 57 seconds
-2019-07-07 19:40:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,10
-2019-07-07 19:40:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 18,54
-2019-07-07 19:40:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 54
-2019-07-07 19:40:09 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 19:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 19:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 19:40:34 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 19:40:34 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-19:40:09.pcap 
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 13 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 13 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 19 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 18 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 18 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 20 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 25 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 25 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 24 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 25 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 25 flow
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-19:40:09.pcap
-2019-07-07 19:40:34 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 19:40:34 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 90
-2019-07-07 19:40:34 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 90
-2019-07-07 19:40:34 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 19:40:34 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 20 seconds
-2019-07-07 19:40:34 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,19
-2019-07-07 19:40:34 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 10,33
-2019-07-07 19:40:34 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:37:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:37:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:37:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:37:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:36:51.pcap 
+2019-05-11 14:37:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:36:51.pcap
+2019-05-11 14:37:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:37:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 3012
+2019-05-11 14:37:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 3012
+2019-05-11 14:37:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:37:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 54 seconds
+2019-05-11 14:37:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:37:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:37:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 14:37:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 23,33
+2019-05-11 14:37:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
 
 ----------------------------------------------------------------------------
  TOTAL FLOWS GENERATED: 33
-2019-07-07 19:40:34 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:37:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
 
-2019-07-07 20:03:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:03:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 20:03:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:03:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-20:02:51.pcap 
-2019-07-07 20:03:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-20:02:51.pcap
-2019-07-07 20:03:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 20:03:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 67
-2019-07-07 20:03:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 67
-2019-07-07 20:03:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 20:03:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 51 seconds
-2019-07-07 20:03:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 20:03:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 20:03:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 20:03:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,5
-2019-07-07 20:03:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:38:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:38:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:38:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:38:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:37:51.pcap 
+2019-05-11 14:38:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2019-05-11 14:38:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 20 flow
+2019-05-11 14:38:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 19 flow
+2019-05-11 14:38:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 18 flow
+2019-05-11 14:38:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2019-05-11 14:38:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2019-05-11 14:38:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 16 flow
+2019-05-11 14:38:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 15 flow
+2019-05-11 14:38:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:37:51.pcap
+2019-05-11 14:38:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:38:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 3900
+2019-05-11 14:38:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 3900
+2019-05-11 14:38:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:38:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 59 seconds
+2019-05-11 14:38:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:38:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:38:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,8
+2019-05-11 14:38:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 9,13
+2019-05-11 14:38:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 13
+2019-05-11 14:38:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 14:39:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:39:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:39:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:39:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:38:51.pcap 
+2019-05-11 14:39:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:38:51.pcap
+2019-05-11 14:39:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:39:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 1946
+2019-05-11 14:39:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 1946
+2019-05-11 14:39:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:39:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 49 seconds
+2019-05-11 14:39:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:39:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:39:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 14:39:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 12,4
+2019-05-11 14:39:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 4
+2019-05-11 14:39:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 14:44:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:44:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:44:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:44:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:43:29.pcap 
+2019-05-11 14:44:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:43:29.pcap
+2019-05-11 14:44:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:44:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2226
+2019-05-11 14:44:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2226
+2019-05-11 14:44:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:44:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 51 seconds
+2019-05-11 14:44:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:44:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:44:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 14:44:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 2,5
+2019-05-11 14:44:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
 
 ----------------------------------------------------------------------------
  TOTAL FLOWS GENERATED: 5
-2019-07-07 20:03:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:44:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
 
-2019-07-07 20:04:52 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:04:52 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 20:04:52 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:04:52 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-20:03:51.pcap 
-2019-07-07 20:04:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-20:03:51.pcap
-2019-07-07 20:04:52 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 20:04:52 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 43
-2019-07-07 20:04:52 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 43
-2019-07-07 20:04:52 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 20:04:52 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 59 seconds
-2019-07-07 20:04:52 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 20:04:52 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 20:04:52 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 20:04:52 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,10
-2019-07-07 20:04:52 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:45:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:45:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:45:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:45:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:44:32.pcap 
+2019-05-11 14:45:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:44:32.pcap
+2019-05-11 14:45:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:45:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2288
+2019-05-11 14:45:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2288
+2019-05-11 14:45:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:45:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
+2019-05-11 14:45:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:45:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:45:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 14:45:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 2,6
+2019-05-11 14:45:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 6
+2019-05-11 14:45:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 14:46:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:46:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:46:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:46:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:45:38.pcap 
+2019-05-11 14:46:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2019-05-11 14:46:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2019-05-11 14:46:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:45:38.pcap
+2019-05-11 14:46:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:46:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2543
+2019-05-11 14:46:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2543
+2019-05-11 14:46:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:46:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
+2019-05-11 14:46:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:46:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:46:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
+2019-05-11 14:46:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 7,10
+2019-05-11 14:46:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
 
 ----------------------------------------------------------------------------
  TOTAL FLOWS GENERATED: 10
-2019-07-07 20:04:52 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:46:38 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
 
-2019-07-07 20:05:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:05:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 20:05:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:05:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-20:04:52.pcap 
-2019-07-07 20:05:22 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 3 flow
-2019-07-07 20:05:22 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-20:04:52.pcap
-2019-07-07 20:05:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 20:05:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 9
-2019-07-07 20:05:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 9
-2019-07-07 20:05:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 20:05:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 20 seconds
-2019-07-07 20:05:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 20:05:22 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 20:05:22 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,1
-2019-07-07 20:05:22 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 2,3
-2019-07-07 20:05:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 3
-2019-07-07 20:05:22 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 20:45:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:45:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 20:45:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:45:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-20:43:58.pcap 
-2019-07-07 20:45:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
-2019-07-07 20:45:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
-2019-07-07 20:45:00 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-20:43:58.pcap
-2019-07-07 20:45:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 20:45:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2974
-2019-07-07 20:45:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2974
-2019-07-07 20:45:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 20:45:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 57 seconds
-2019-07-07 20:45:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 20:45:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 20:45:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
-2019-07-07 20:45:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 4,13
-2019-07-07 20:45:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 13
-2019-07-07 20:45:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 20:46:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:46:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 20:46:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:46:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-20:44:59.pcap 
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 73 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 86 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 92 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 101 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 101 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 101 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 103 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 103 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 103 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 105 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 105 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 104 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 105 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 104 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 103 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 102 flow
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-20:44:59.pcap
-2019-07-07 20:46:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 20:46:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2232
-2019-07-07 20:46:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2232
-2019-07-07 20:46:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 20:46:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 59 seconds
-2019-07-07 20:46:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,16
-2019-07-07 20:46:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 22,99
-2019-07-07 20:46:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 99
-2019-07-07 20:46:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 20:47:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:47:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 20:47:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:47:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-20:45:59.pcap 
-2019-07-07 20:47:00 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-20:45:59.pcap
-2019-07-07 20:47:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 20:47:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 79
-2019-07-07 20:47:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 79
-2019-07-07 20:47:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 20:47:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 54 seconds
-2019-07-07 20:47:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 20:47:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 20:47:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 20:47:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 6,15
-2019-07-07 20:47:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 15
-2019-07-07 20:47:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 20:47:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:47:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 20:47:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:47:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-20:47:00.pcap 
-2019-07-07 20:47:05 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-20:47:00.pcap
-2019-07-07 20:47:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 20:47:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 1
-2019-07-07 20:47:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 1
-2019-07-07 20:47:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 20:47:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 0 seconds
-2019-07-07 20:47:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 20:47:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 20:47:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 20:47:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,0
-2019-07-07 20:47:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 0
-2019-07-07 20:47:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 20:52:02 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:52:02 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 20:52:02 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:52:02 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-20:51:02.pcap 
-2019-07-07 20:52:02 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-20:51:02.pcap
-2019-07-07 20:52:02 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 20:52:02 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 13
-2019-07-07 20:52:02 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 13
-2019-07-07 20:52:02 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 20:52:02 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 22 seconds
-2019-07-07 20:52:02 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 20:52:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 20:52:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 20:52:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,4
-2019-07-07 20:52:02 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 4
-2019-07-07 20:52:02 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 20:53:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:53:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 20:53:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:53:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-20:52:02.pcap 
-2019-07-07 20:53:05 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-20:52:02.pcap
-2019-07-07 20:53:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 20:53:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 8
-2019-07-07 20:53:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 8
-2019-07-07 20:53:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 20:53:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 41 seconds
-2019-07-07 20:53:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 20:53:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 20:53:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 20:53:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,3
-2019-07-07 20:53:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 3
-2019-07-07 20:53:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 20:56:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:56:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 20:56:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:56:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-20:55:03.pcap 
-2019-07-07 20:56:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
-2019-07-07 20:56:05 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-20:55:03.pcap
-2019-07-07 20:56:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 20:56:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2342
-2019-07-07 20:56:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2342
-2019-07-07 20:56:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 20:56:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 55 seconds
-2019-07-07 20:56:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 20:56:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 20:56:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,1
-2019-07-07 20:56:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 2,13
-2019-07-07 20:56:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 13
-2019-07-07 20:56:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 20:57:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:57:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 20:57:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:57:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-20:56:04.pcap 
-2019-07-07 20:57:04 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
-2019-07-07 20:57:04 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
-2019-07-07 20:57:04 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
-2019-07-07 20:57:04 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-20:56:04.pcap
-2019-07-07 20:57:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 20:57:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2366
-2019-07-07 20:57:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2366
-2019-07-07 20:57:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 20:57:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 51 seconds
-2019-07-07 20:57:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 20:57:04 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 20:57:04 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,3
-2019-07-07 20:57:04 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,11
-2019-07-07 20:57:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 11
-2019-07-07 20:57:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 20:57:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:57:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 20:57:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 20:57:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-20:57:04.pcap 
-2019-07-07 20:57:14 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-20:57:04.pcap
-2019-07-07 20:57:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 20:57:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 515
-2019-07-07 20:57:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 515
-2019-07-07 20:57:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 20:57:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 7 seconds
-2019-07-07 20:57:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 20:57:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 20:57:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 20:57:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,2
-2019-07-07 20:57:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 2
-2019-07-07 20:57:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 21:40:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 21:40:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 21:40:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 21:40:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-21:39:00.pcap 
-2019-07-07 21:40:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
-2019-07-07 21:40:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
-2019-07-07 21:40:00 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-21:39:00.pcap
-2019-07-07 21:40:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 21:40:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2262
-2019-07-07 21:40:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2262
-2019-07-07 21:40:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 21:40:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 57 seconds
-2019-07-07 21:40:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 21:40:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 21:40:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
-2019-07-07 21:40:00 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,13
-2019-07-07 21:40:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 13
-2019-07-07 21:40:00 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 21:41:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 21:41:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 21:41:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 21:41:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-21:40:00.pcap 
-2019-07-07 21:41:01 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
-2019-07-07 21:41:01 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-21:40:00.pcap
-2019-07-07 21:41:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 21:41:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2518
-2019-07-07 21:41:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2518
-2019-07-07 21:41:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 21:41:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 60 seconds
-2019-07-07 21:41:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 21:41:01 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 21:41:01 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,1
-2019-07-07 21:41:01 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,12
-2019-07-07 21:41:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 12
-2019-07-07 21:41:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 21:42:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 21:42:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 21:42:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 21:42:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-21:41:00.pcap 
-2019-07-07 21:42:03 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
-2019-07-07 21:42:03 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
-2019-07-07 21:42:03 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
-2019-07-07 21:42:03 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-21:41:00.pcap
-2019-07-07 21:42:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 21:42:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 925
-2019-07-07 21:42:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 925
-2019-07-07 21:42:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 21:42:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 56 seconds
-2019-07-07 21:42:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 21:42:03 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 21:42:03 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,3
-2019-07-07 21:42:03 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,10
-2019-07-07 21:42:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 10
-2019-07-07 21:42:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 21:42:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 21:42:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 21:42:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 21:42:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-21:42:03.pcap 
-2019-07-07 21:42:27 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-21:42:03.pcap
-2019-07-07 21:42:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 21:42:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 11
-2019-07-07 21:42:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 11
-2019-07-07 21:42:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 21:42:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 15 seconds
-2019-07-07 21:42:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 21:42:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 21:42:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 21:42:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,4
-2019-07-07 21:42:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 4
-2019-07-07 21:42:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 22:25:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:25:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 22:25:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:25:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-22:24:32.pcap 
-2019-07-07 22:25:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-22:24:32.pcap
-2019-07-07 22:25:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 22:25:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 53
-2019-07-07 22:25:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 53
-2019-07-07 22:25:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 22:25:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 50 seconds
-2019-07-07 22:25:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 22:25:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 22:25:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 22:25:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 2,10
-2019-07-07 22:25:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 10
-2019-07-07 22:25:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 22:26:39 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:26:39 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 22:26:39 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:26:39 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-22:25:32.pcap 
-2019-07-07 22:26:39 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
-2019-07-07 22:26:39 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
-2019-07-07 22:26:39 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-22:25:32.pcap
-2019-07-07 22:26:39 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 22:26:39 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 242
-2019-07-07 22:26:39 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 242
-2019-07-07 22:26:39 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 22:26:39 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 56 seconds
-2019-07-07 22:26:39 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 22:26:39 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 22:26:39 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
-2019-07-07 22:26:39 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,12
-2019-07-07 22:26:39 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 12
-2019-07-07 22:26:39 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 22:27:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:27:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 22:27:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:27:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-22:26:39.pcap 
-2019-07-07 22:27:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
-2019-07-07 22:27:05 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-22:26:39.pcap
-2019-07-07 22:27:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 22:27:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 13
-2019-07-07 22:27:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 13
-2019-07-07 22:27:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 22:27:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 20 seconds
-2019-07-07 22:27:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 22:27:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 22:27:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,1
-2019-07-07 22:27:05 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,4
-2019-07-07 22:27:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-
-----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 4
-2019-07-07 22:27:05 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-
-2019-07-07 22:28:17 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:28:17 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 22:28:18 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:28:18 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-22:27:17.pcap 
-2019-07-07 22:28:18 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-22:27:17.pcap
-2019-07-07 22:28:18 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 22:28:18 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 127
-2019-07-07 22:28:18 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 127
-2019-07-07 22:28:18 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 22:28:18 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 56 seconds
-2019-07-07 22:28:18 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 22:28:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 22:28:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 22:28:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,8
-2019-07-07 22:28:18 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:47:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:47:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:47:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:47:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:46:38.pcap 
+2019-05-11 14:47:40 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2019-05-11 14:47:40 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2019-05-11 14:47:40 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2019-05-11 14:47:40 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2019-05-11 14:47:40 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:46:38.pcap
+2019-05-11 14:47:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:47:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2046
+2019-05-11 14:47:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2046
+2019-05-11 14:47:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:47:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 52 seconds
+2019-05-11 14:47:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:47:40 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:47:40 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,4
+2019-05-11 14:47:40 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 4,8
+2019-05-11 14:47:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
 
 ----------------------------------------------------------------------------
  TOTAL FLOWS GENERATED: 8
-2019-07-07 22:28:18 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:47:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
 
-2019-07-07 22:28:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:28:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 22:28:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:28:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-22:28:17.pcap 
-2019-07-07 22:28:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-22:28:17.pcap
-2019-07-07 22:28:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 22:28:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 23
-2019-07-07 22:28:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 23
-2019-07-07 22:28:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 22:28:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 10 seconds
-2019-07-07 22:28:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 22:28:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 22:28:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 22:28:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,3
-2019-07-07 22:28:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:48:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:48:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:48:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:48:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:47:39.pcap 
+2019-05-11 14:48:42 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:47:39.pcap
+2019-05-11 14:48:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:48:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 4007
+2019-05-11 14:48:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 4007
+2019-05-11 14:48:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:48:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
+2019-05-11 14:48:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:48:42 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:48:42 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 14:48:42 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 4,4
+2019-05-11 14:48:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 4
+2019-05-11 14:48:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 14:49:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:49:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:49:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:49:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:48:41.pcap 
+2019-05-11 14:49:41 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:48:41.pcap
+2019-05-11 14:49:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:49:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2588
+2019-05-11 14:49:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2588
+2019-05-11 14:49:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:49:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 59 seconds
+2019-05-11 14:49:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:49:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:49:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 14:49:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 6,9
+2019-05-11 14:49:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 9
+2019-05-11 14:49:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 14:50:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:50:41 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:50:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:50:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:49:41.pcap 
+2019-05-11 14:50:42 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 42 flow
+2019-05-11 14:50:42 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 42 flow
+2019-05-11 14:50:42 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:49:41.pcap
+2019-05-11 14:50:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:50:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2275
+2019-05-11 14:50:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2275
+2019-05-11 14:50:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:50:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
+2019-05-11 14:50:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:50:42 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:50:42 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
+2019-05-11 14:50:42 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 25,22
+2019-05-11 14:50:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 22
+2019-05-11 14:50:42 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 14:51:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:51:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:51:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:51:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:50:41.pcap 
+2019-05-11 14:51:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2019-05-11 14:51:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 3 flow
+2019-05-11 14:51:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2019-05-11 14:51:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2019-05-11 14:51:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2019-05-11 14:51:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2019-05-11 14:51:45 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:50:41.pcap
+2019-05-11 14:51:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:51:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2547
+2019-05-11 14:51:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2547
+2019-05-11 14:51:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:51:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 60 seconds
+2019-05-11 14:51:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:51:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:51:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,6
+2019-05-11 14:51:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 15,12
+2019-05-11 14:51:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 12
+2019-05-11 14:51:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 14:52:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:52:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:52:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:52:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:51:44.pcap 
+2019-05-11 14:52:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 13 flow
+2019-05-11 14:52:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 13 flow
+2019-05-11 14:52:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 15 flow
+2019-05-11 14:52:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 15 flow
+2019-05-11 14:52:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 14 flow
+2019-05-11 14:52:45 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:51:44.pcap
+2019-05-11 14:52:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:52:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 3808
+2019-05-11 14:52:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 3808
+2019-05-11 14:52:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:52:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
+2019-05-11 14:52:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:52:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:52:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,5
+2019-05-11 14:52:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 9,11
+2019-05-11 14:52:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 11
+2019-05-11 14:52:45 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 14:53:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:53:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:53:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:53:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:52:44.pcap 
+2019-05-11 14:53:48 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2019-05-11 14:53:48 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:52:44.pcap
+2019-05-11 14:53:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:53:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2375
+2019-05-11 14:53:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2375
+2019-05-11 14:53:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:53:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
+2019-05-11 14:53:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:53:48 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:53:48 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,1
+2019-05-11 14:53:48 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 2,6
+2019-05-11 14:53:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 6
+2019-05-11 14:53:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 14:54:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:54:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:54:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:54:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:53:48.pcap 
+2019-05-11 14:54:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:53:48.pcap
+2019-05-11 14:54:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:54:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 1966
+2019-05-11 14:54:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 1966
+2019-05-11 14:54:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:54:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 57 seconds
+2019-05-11 14:54:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:54:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:54:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 14:54:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 5,3
+2019-05-11 14:54:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
 
 ----------------------------------------------------------------------------
  TOTAL FLOWS GENERATED: 3
-2019-07-07 22:28:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:54:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
 
-2019-07-07 22:35:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:35:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 22:35:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:35:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-22:34:26.pcap 
-2019-07-07 22:35:27 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-22:34:26.pcap
-2019-07-07 22:35:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 22:35:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 1048
-2019-07-07 22:35:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 1048
-2019-07-07 22:35:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 22:35:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 56 seconds
-2019-07-07 22:35:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 22:35:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 22:35:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 22:35:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,7
-2019-07-07 22:35:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:55:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:55:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:55:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:55:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:54:55.pcap 
+2019-05-11 14:55:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:54:55.pcap
+2019-05-11 14:55:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:55:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2473
+2019-05-11 14:55:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2473
+2019-05-11 14:55:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:55:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 52 seconds
+2019-05-11 14:55:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:55:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:55:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 14:55:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,6
+2019-05-11 14:55:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 6
+2019-05-11 14:55:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 14:56:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:56:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:56:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:56:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:55:55.pcap 
+2019-05-11 14:56:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:55:55.pcap
+2019-05-11 14:56:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:56:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2561
+2019-05-11 14:56:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2561
+2019-05-11 14:56:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:56:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 56 seconds
+2019-05-11 14:56:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:56:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:56:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 14:56:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 4,4
+2019-05-11 14:56:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 4
+2019-05-11 14:56:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 14:57:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:57:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:57:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:57:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:56:56.pcap 
+2019-05-11 14:57:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:56:56.pcap
+2019-05-11 14:57:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:57:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2040
+2019-05-11 14:57:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2040
+2019-05-11 14:57:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:57:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 55 seconds
+2019-05-11 14:57:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:57:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:57:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 14:57:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 3,3
+2019-05-11 14:57:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 3
+2019-05-11 14:57:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 14:58:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:58:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 14:58:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 14:58:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:57:56.pcap 
+2019-05-11 14:58:57 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:57:56.pcap
+2019-05-11 14:58:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 14:58:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2543
+2019-05-11 14:58:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2543
+2019-05-11 14:58:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 14:58:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 55 seconds
+2019-05-11 14:58:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:58:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 14:58:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 14:58:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,7
+2019-05-11 14:58:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
 
 ----------------------------------------------------------------------------
  TOTAL FLOWS GENERATED: 7
-2019-07-07 22:35:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 14:58:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
 
-2019-07-07 22:35:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:35:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
-2019-07-07 22:35:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
-2019-07-07 22:35:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2019-07-07-22:35:26.pcap 
-2019-07-07 22:35:40 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2019-07-07-22:35:26.pcap
-2019-07-07 22:35:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
-2019-07-07 22:35:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 317
-2019-07-07 22:35:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 317
-2019-07-07 22:35:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
-2019-07-07 22:35:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 8 seconds
-2019-07-07 22:35:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
-2019-07-07 22:35:40 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
-2019-07-07 22:35:40 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
-2019-07-07 22:35:40 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,2
-2019-07-07 22:35:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:00:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:00:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:00:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:00:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-14:58:56.pcap 
+2019-05-11 15:00:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2019-05-11 15:00:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2019-05-11 15:00:11 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-14:58:56.pcap
+2019-05-11 15:00:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:00:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2046
+2019-05-11 15:00:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2046
+2019-05-11 15:00:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:00:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 60 seconds
+2019-05-11 15:00:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:00:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:00:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
+2019-05-11 15:00:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,6
+2019-05-11 15:00:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
 
 ----------------------------------------------------------------------------
- TOTAL FLOWS GENERATED: 2
-2019-07-07 22:35:40 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 6
+2019-05-11 15:00:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:01:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:01:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:01:12 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:01:12 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:00:11.pcap 
+2019-05-11 15:01:12 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:00:11.pcap
+2019-05-11 15:01:12 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:01:12 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 4208
+2019-05-11 15:01:12 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 4208
+2019-05-11 15:01:12 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:01:12 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 52 seconds
+2019-05-11 15:01:12 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:01:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:01:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 15:01:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 22,22
+2019-05-11 15:01:12 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 22
+2019-05-11 15:01:12 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:02:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:02:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:02:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:02:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:01:11.pcap 
+2019-05-11 15:02:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2019-05-11 15:02:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2019-05-11 15:02:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 22 flow
+2019-05-11 15:02:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 22 flow
+2019-05-11 15:02:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:01:11.pcap
+2019-05-11 15:02:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:02:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2609
+2019-05-11 15:02:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2609
+2019-05-11 15:02:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:02:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 60 seconds
+2019-05-11 15:02:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:02:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:02:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,4
+2019-05-11 15:02:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 4,22
+2019-05-11 15:02:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 22
+2019-05-11 15:02:15 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:03:21 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:03:21 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:03:21 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:03:21 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:02:14.pcap 
+2019-05-11 15:03:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
+2019-05-11 15:03:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
+2019-05-11 15:03:21 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:02:14.pcap
+2019-05-11 15:03:21 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:03:21 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 3535
+2019-05-11 15:03:21 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 3535
+2019-05-11 15:03:21 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:03:21 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 56 seconds
+2019-05-11 15:03:21 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:03:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:03:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
+2019-05-11 15:03:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 3,13
+2019-05-11 15:03:21 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 13
+2019-05-11 15:03:21 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:04:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:04:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:04:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:04:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:03:21.pcap 
+2019-05-11 15:04:24 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:03:21.pcap
+2019-05-11 15:04:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:04:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2811
+2019-05-11 15:04:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2811
+2019-05-11 15:04:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:04:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
+2019-05-11 15:04:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:04:24 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:04:24 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 15:04:24 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 17,14
+2019-05-11 15:04:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 14
+2019-05-11 15:04:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:05:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:05:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:05:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:05:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:04:24.pcap 
+2019-05-11 15:05:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2019-05-11 15:05:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2019-05-11 15:05:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2019-05-11 15:05:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2019-05-11 15:05:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 14 flow
+2019-05-11 15:05:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 20 flow
+2019-05-11 15:05:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 19 flow
+2019-05-11 15:05:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 53 flow
+2019-05-11 15:05:25 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:04:24.pcap
+2019-05-11 15:05:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:05:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 4846
+2019-05-11 15:05:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 4846
+2019-05-11 15:05:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:05:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 57 seconds
+2019-05-11 15:05:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:05:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:05:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,8
+2019-05-11 15:05:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 27,35
+2019-05-11 15:05:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 35
+2019-05-11 15:05:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:06:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:06:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:06:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:06:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:05:25.pcap 
+2019-05-11 15:06:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 13 flow
+2019-05-11 15:06:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 35 flow
+2019-05-11 15:06:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 40 flow
+2019-05-11 15:06:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 40 flow
+2019-05-11 15:06:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 39 flow
+2019-05-11 15:06:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 39 flow
+2019-05-11 15:06:25 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:05:25.pcap
+2019-05-11 15:06:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:06:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2137
+2019-05-11 15:06:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2137
+2019-05-11 15:06:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:06:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 54 seconds
+2019-05-11 15:06:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:06:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:06:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,6
+2019-05-11 15:06:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 19,26
+2019-05-11 15:06:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 26
+2019-05-11 15:06:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:07:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:07:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:07:28 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:07:28 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:06:25.pcap 
+2019-05-11 15:07:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 14 flow
+2019-05-11 15:07:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 13 flow
+2019-05-11 15:07:28 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:06:25.pcap
+2019-05-11 15:07:28 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:07:28 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2415
+2019-05-11 15:07:28 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2415
+2019-05-11 15:07:28 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:07:28 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 56 seconds
+2019-05-11 15:07:28 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:07:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:07:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
+2019-05-11 15:07:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 7,11
+2019-05-11 15:07:28 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 11
+2019-05-11 15:07:28 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:08:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:08:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:08:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:08:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:07:27.pcap 
+2019-05-11 15:08:31 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2019-05-11 15:08:31 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2019-05-11 15:08:31 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
+2019-05-11 15:08:31 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:07:27.pcap
+2019-05-11 15:08:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:08:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2103
+2019-05-11 15:08:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2103
+2019-05-11 15:08:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:08:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 55 seconds
+2019-05-11 15:08:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:08:31 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:08:31 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,3
+2019-05-11 15:08:31 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 9,9
+2019-05-11 15:08:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 9
+2019-05-11 15:08:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:09:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:09:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:09:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:09:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:08:30.pcap 
+2019-05-11 15:09:31 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2019-05-11 15:09:31 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2019-05-11 15:09:31 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2019-05-11 15:09:31 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:08:30.pcap
+2019-05-11 15:09:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:09:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 4197
+2019-05-11 15:09:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 4197
+2019-05-11 15:09:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:09:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
+2019-05-11 15:09:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:09:31 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:09:31 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,3
+2019-05-11 15:09:31 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 12,14
+2019-05-11 15:09:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 14
+2019-05-11 15:09:31 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:10:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:10:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:10:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:10:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:09:30.pcap 
+2019-05-11 15:10:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:09:30.pcap
+2019-05-11 15:10:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:10:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2541
+2019-05-11 15:10:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2541
+2019-05-11 15:10:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:10:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 56 seconds
+2019-05-11 15:10:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:10:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:10:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2019-05-11 15:10:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 13,20
+2019-05-11 15:10:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 20
+2019-05-11 15:10:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:11:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:11:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:11:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:11:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:10:36.pcap 
+2019-05-11 15:11:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 3 flow
+2019-05-11 15:11:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 3 flow
+2019-05-11 15:11:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2019-05-11 15:11:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 13 flow
+2019-05-11 15:11:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:10:36.pcap
+2019-05-11 15:11:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:11:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 2814
+2019-05-11 15:11:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 2814
+2019-05-11 15:11:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:11:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 55 seconds
+2019-05-11 15:11:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:11:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:11:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,4
+2019-05-11 15:11:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 20,22
+2019-05-11 15:11:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 22
+2019-05-11 15:11:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:12:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:12:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:12:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:12:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:11:36.pcap 
+2019-05-11 15:12:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2019-05-11 15:12:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:11:36.pcap
+2019-05-11 15:12:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:12:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 4191
+2019-05-11 15:12:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 4191
+2019-05-11 15:12:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:12:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 50 seconds
+2019-05-11 15:12:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:12:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:12:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,1
+2019-05-11 15:12:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 5,7
+2019-05-11 15:12:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 7
+2019-05-11 15:12:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:13:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:13:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:13:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:13:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:12:36.pcap 
+2019-05-11 15:13:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2019-05-11 15:13:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:12:36.pcap
+2019-05-11 15:13:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:13:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 803
+2019-05-11 15:13:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 803
+2019-05-11 15:13:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:13:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 59 seconds
+2019-05-11 15:13:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:13:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:13:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,1
+2019-05-11 15:13:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 12,29
+2019-05-11 15:13:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 29
+2019-05-11 15:13:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:14:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:14:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:14:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:14:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:13:36.pcap 
+2019-05-11 15:14:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 62 flow
+2019-05-11 15:14:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 61 flow
+2019-05-11 15:14:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 84 flow
+2019-05-11 15:14:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 86 flow
+2019-05-11 15:14:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:13:36.pcap
+2019-05-11 15:14:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:14:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 828
+2019-05-11 15:14:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 828
+2019-05-11 15:14:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:14:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 59 seconds
+2019-05-11 15:14:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:14:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:14:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,4
+2019-05-11 15:14:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 34,55
+2019-05-11 15:14:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 55
+2019-05-11 15:14:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:15:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:15:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:15:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:15:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:14:36.pcap 
+2019-05-11 15:15:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 21 flow
+2019-05-11 15:15:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 81 flow
+2019-05-11 15:15:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:14:36.pcap
+2019-05-11 15:15:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:15:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 590
+2019-05-11 15:15:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 590
+2019-05-11 15:15:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:15:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 59 seconds
+2019-05-11 15:15:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:15:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:15:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
+2019-05-11 15:15:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 29,64
+2019-05-11 15:15:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 64
+2019-05-11 15:15:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:16:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:16:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:16:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:16:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:15:36.pcap 
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 13 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 33 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 42 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 41 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 40 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 39 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 38 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 38 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 42 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 46 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 46 flow
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:15:36.pcap
+2019-05-11 15:16:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:16:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 561
+2019-05-11 15:16:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 561
+2019-05-11 15:16:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:16:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 59 seconds
+2019-05-11 15:16:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,15
+2019-05-11 15:16:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 16,51
+2019-05-11 15:16:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 51
+2019-05-11 15:16:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:17:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:17:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:17:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:17:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:16:36.pcap 
+2019-05-11 15:17:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 37 flow
+2019-05-11 15:17:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 43 flow
+2019-05-11 15:17:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 54 flow
+2019-05-11 15:17:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 58 flow
+2019-05-11 15:17:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 84 flow
+2019-05-11 15:17:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:16:36.pcap
+2019-05-11 15:17:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:17:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 424
+2019-05-11 15:17:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 424
+2019-05-11 15:17:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:17:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 59 seconds
+2019-05-11 15:17:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:17:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:17:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,5
+2019-05-11 15:17:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 37,51
+2019-05-11 15:17:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 51
+2019-05-11 15:17:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:18:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:18:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:18:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:18:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:17:36.pcap 
+2019-05-11 15:18:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
+2019-05-11 15:18:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 16 flow
+2019-05-11 15:18:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 29 flow
+2019-05-11 15:18:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 29 flow
+2019-05-11 15:18:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 29 flow
+2019-05-11 15:18:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 29 flow
+2019-05-11 15:18:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:17:36.pcap
+2019-05-11 15:18:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:18:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 104
+2019-05-11 15:18:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 104
+2019-05-11 15:18:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:18:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 58 seconds
+2019-05-11 15:18:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:18:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:18:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,6
+2019-05-11 15:18:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 16,18
+2019-05-11 15:18:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 18
+2019-05-11 15:18:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2019-05-11 15:19:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:19:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2019-05-11 15:19:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2019-05-11 15:19:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap//2019-05-11-15:18:37.pcap 
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 19 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 40 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 49 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 60 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 61 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 61 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 61 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 61 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 64 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 71 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 72 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 71 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 71 flow
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap//2019-05-11-15:18:37.pcap
+2019-05-11 15:19:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2019-05-11 15:19:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 759
+2019-05-11 15:19:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 759
+2019-05-11 15:19:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2019-05-11 15:19:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 59 seconds
+2019-05-11 15:19:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,14
+2019-05-11 15:19:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 42,46
+2019-05-11 15:19:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 46
+2019-05-11 15:19:37 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
 
