@@ -40,6 +40,9 @@ class DataLoader(object):
 if __name__ == '__main__':
     producer = DataLoader()
     path = 'csv/' + sys.argv[1]
-    #path = '../data/dataset/test.csv'
+    #path = '/home/agits/Documents/code/python/ddos_protection_NN/data/dataset/test.csv'
+    #path = '/home/agits/Documents/reports/csv/2019-05-09-19:51:14_ISCX.csv'
+    #path = '/home/agits/Documents/reports/csv/2019-05-09-20:00:14_ISCX.csv'
+    #path = '/home/agits/Documents/reports/csv/2019-05-09-19:52:14_ISCX.csv'
     x_file = open(path)
     producer.read_data_from_csv(x_file)
