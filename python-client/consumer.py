@@ -51,9 +51,8 @@ class Consumer(object):
     def make_prediction(self, model, dataframe):
         print("---------------")
 
-        dataframe['Label'] = np.where(dataframe['Label'] == 'No Label', -1,
-                                      dataframe['Label'])
-
+        #dataframe['Label'] = np.where(dataframe['Label'] == 'No Label', -1,
+        #                              dataframe['Label'])
         dataset = dataframe.sample(frac=1).values
 
         X_processed = np.delete(dataset, [0, 1, 3, 6], 1).astype('float32')

@@ -19,3 +19,4 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./consumer.properties:/opt/kafka/config/consumer.properties
+      - ./producer.properties:/opt/kafka/config/producer.properties
