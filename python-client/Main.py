@@ -5,7 +5,11 @@ import configparser
 
 
 class Main(object):
+    """Main class for creates,trains model"""
+
     def __init__(self):
+        """__init__ first setups directories and initialization
+        from config files"""
 
         self.config = configparser.ConfigParser()
         self.config.read('config.ini')
@@ -29,6 +33,7 @@ class Main(object):
         self.datasetDir = os.path.relpath('../data/dataset', self.cur_path)
 
     def launch(self):
+        """launch func for start proecess of creates and trains process"""
         csv_file = self.datasetDir + \
             '/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv'
 

@@ -6,6 +6,8 @@ from sklearn.utils import class_weight
 
 
 class TrainingProcess(object):
+    """TrainingProcess class for controls training process"""
+
     def __init__(self, csv_file, num_features, train_size_per,
                  batch_size_train, batch_size_test, num_epochs, outputDir):
         self.csv_file = csv_file
@@ -17,6 +19,7 @@ class TrainingProcess(object):
         self.batch_size_test = batch_size_test
 
     def read_data_from_csv(self):
+        """read_data_from_csv func for creates dataframe from csv file"""
         dataframe = pandas.read_csv(self.csv_file)
         dataframe.replace([np.inf, -np.inf], np.nan).dropna(axis=1)
 
@@ -39,6 +42,10 @@ class TrainingProcess(object):
         return dataset
 
     def preprocess(self, dataset):
+        """preprocess func for data processes and prepare for trains
+
+        :param nDataset: - data from dataframes without heads
+        """
         print("\nDataset shape: {}".format(dataset.shape))
 
         Y = dataset[:, self.num_features]
@@ -56,6 +63,12 @@ class TrainingProcess(object):
         return X_train, Y_train, X_test, Y_test
 
     def train(self, X_train, Y_train, model):
+        """train - func for trains neural network
+
+        :param X_train: - data colums
+        :param Y_train: - label colums
+        :param model: - model from LSTM_Model class
+        """
         X_train = np.reshape(X_train, (X_train.shape[0], X_train.shape[1], 1))
 
         class_weights = class_weight.compute_class_weight(
@@ -79,6 +92,11 @@ class TrainingProcess(object):
         return model_history
 
     def evaluate(self, X_test, Y_test):
+        """evaluate func for tests after trains model
+
+        :param X_test: - data colums
+        :param Y_test: - label colums
+        """
         model = load_model(self.outputDir + '/lstm_model.h5')
         X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
 
@@ -89,3 +107,4 @@ class TrainingProcess(object):
 
         print("\nLoss: {}".format(score))
         print("Accuracy: {:0.2f}%".format(acc * 100))
+

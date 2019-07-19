@@ -1,17 +1,19 @@
-"""Consume data from kafka to make prediction"""
-
 import configparser
 import os
 import pickle
-from keras.models import load_model
+
 import numpy as np
 from kafka import KafkaConsumer
+from keras.models import load_model
 
 from LSTM_Model import LSTM_Model
 
 
 class Consumer(object):
+    """Consumer class for receives data from kafka and makes prediction"""
+
     def __init__(self):
+        """__init__ method for first initialization from config"""
         self.cur_path = os.path.dirname(__file__)
         self.outputDir = os.path.relpath('../resources/model_resources',
                                          self.cur_path)
@@ -33,6 +35,7 @@ class Consumer(object):
                                                    'BATCH_SIZE_TRAIN')
 
     def model_load(self):
+        """model_load func for loading model from file to make prediction"""
 
         old_weights = load_model(self.outputDir +
                                  '/lstm_model.h5').get_weights()
@@ -49,10 +52,13 @@ class Consumer(object):
         return new_model
 
     def make_prediction(self, model, dataframe):
+        """make_prediction func for make prediction
+
+        :param model - numeral network model:
+        :param dataframe - data from kafka broker:
+        """
         print("---------------")
 
-        #dataframe['Label'] = np.where(dataframe['Label'] == 'No Label', -1,
-        #                              dataframe['Label'])
         dataset = dataframe.sample(frac=1).values
 
         X_processed = np.delete(dataset, [0, 1, 3, 6], 1).astype('float32')
@@ -67,6 +73,11 @@ class Consumer(object):
         self.check_and_add_to_blacklist(dataset)
 
     def check_and_add_to_blacklist(self, dataset):
+        """check_and_add_to_blacklist func to finds hacker's
+        ip from prediction by neural network.
+
+        :param dataset - data after prediction:
+        """
         self.black_list = list(
             set([
                 x[0] for x in dataset[:, [1, self.number_features]]
@@ -78,6 +89,7 @@ class Consumer(object):
                 f.write("%s\n" % ip)
 
     def kafka_setup(self):
+        """kafka_setup func to setup up message broker for receives data"""
         # To consume latest messages and auto-commit offsets
         consumer = KafkaConsumer('test-topic',
                                  group_id='test-consumer',
