@@ -47,4 +47,4 @@ if __name__ == '__main__':
         print("Could not read file")
         sys.exit()
 
-        producer.read_data_from_csv(x_file)
+    producer.read_data_from_csv(x_file)
