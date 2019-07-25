@@ -53,41 +53,71 @@ source /<nameofenv>/bin/activate
 ```
 After that you need to install python requirenments:
 
+```
+pip3 install -r requirenments.txt
+```
+
 
 ## Deployment
-For kafka brokers will be available you need modify your /etc/hosts:
+For kafka brokers will be available you need to modify your /etc/hosts:
 ```echo 127.0.1.1 kafka >> /etc/hosts
 ```
-Add additional notes about how to deploy this on a live system
+Firstly you need run docker containers:
+
+```
+./run_compose.sh
+```
+After that you need to capture network packets:
+
+```
+cd tcpdump_and_cicflowmeter 
+sudo ./capture_interface_pcap.sh <network interface> pcap <user>
+```
+Pickup csv files, and send data to kafka broker. You need do that in python virtual environment, in other terminal window.
+
+```
+./pickup_csv_files.sh csv/
+```
+
+Consume data from kafka:
+
+```
+cd python_client
+python3 consumer.py
+```
+
+If you want to block ip address, wich will be find by neural network:
+
+
+```
+cd resources
+rm black_list/black_list.txt
+./block.sh black_list/
+```
+
+
+For demonstration and for more details, i recored video: 
+
+
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* Keras
+* Kafka
+* Docker
+* Python3
+* CiCFlowMeter
+* Tcpdump
+* Bash
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Any pull requests are welcome.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Artem Salagaev** - https://github.com/ArtemGits
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
-
