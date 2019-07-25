@@ -60,7 +60,8 @@ pip3 install -r requirenments.txt
 
 ## Deployment
 For kafka brokers will be available you need to modify your /etc/hosts:
-```echo 127.0.1.1 kafka >> /etc/hosts
+```
+echo 127.0.1.1 kafka >> /etc/hosts
 ```
 Firstly you need run docker containers:
 
