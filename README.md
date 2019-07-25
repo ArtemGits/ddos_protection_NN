@@ -1,4 +1,4 @@
-# Project Title
+# IDS for DDoS detection with LSTM neural network.
 
 This is prototype of IDS (Intrusion Detection System) with LSTM Reccurent Neural Network wich classificates incoming Network traffic and makes prediction to find DDOS attack in network packet's attributes. I have used that project as my final master project of Saint's Peterburg Polytechic University. 
 The dataset was a Intrusion Detection Evaluation Dataset (CICIDS2017). For classification ddos trafic was used only a Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv. I can't public that dataset, but you can ask that University to share that dataset with you. 
@@ -96,9 +96,9 @@ rm black_list/black_list.txt
 ```
 
 
-For demonstration and for more details, i recored video: 
+For demonstration and for more details, I recored video: https://www.youtube.com/watch?v=RiLg3jlOXjk&feature=youtu.be 
 
-
+I have tested with LOIC: https://github.com/NewEraCracker/LOIC
 
 ## Built With
 
